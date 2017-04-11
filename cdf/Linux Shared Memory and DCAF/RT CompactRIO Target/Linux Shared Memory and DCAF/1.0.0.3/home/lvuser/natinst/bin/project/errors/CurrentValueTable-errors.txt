@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="Current Value Table" displayname="Current Value Table">
+</nifamily>
+</nicomment>
+<nierror code="537160">
+No tags found to load.
+</nierror>
+<nierror code="537161">
+An input tag already exists.
+</nierror>
+<nierror code="537162">
+A name must be specified for every tag or group.
+</nierror>
+<nierror code="537163">
+A tag was not found in the CVT.
+</nierror>
+<nierror code="537164">
+A group was not found in the CVT.
+</nierror>
+<nierror code="537165">
+A type mismatch occurred. The specified type did not match the actual type.
+</nierror>
+<nierror code="537166">
+The set of tags requested does not use a single data type. To request data across multiple types, please use the group API.
+</nierror>
+<nierror code="537167">
+No Tags Found to Group
+</nierror>
+<nierror code="537168">
+The scanned value does not match the specified data type
+</nierror>
+<nierror code="537169">
+A group already existed in the CVT
+</nierror>
+</nidocument>

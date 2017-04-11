@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="Tag Bus Module Execution Interface" displayname="Tag Bus Module Execution Interface">
+</nifamily>
+</nicomment>
+<nierror code="538299">
+Module not found
+</nierror>
+<nierror code="538298">
+Module ID invalid
+</nierror>
+<nierror code="538297">
+Multiple reader channels or multiple writer channels cannot be mapped together
+</nierror>
+<nierror code="538296">
+All selected channels are already mapped
+</nierror>
+<nierror code="538295">
+The engine is not in a state compatible with this operation.
+</nierror>
+<nierror code="538294">
+The request-response cycle timed out
+</nierror>
+</nidocument>

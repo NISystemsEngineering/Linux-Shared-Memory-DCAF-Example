@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="tag bus" displayname="tag bus">
+</nifamily>
+</nicomment>
+<nierror code="538350">
+Unsupported Type Requested
+</nierror>
+<nierror code="538351">
+Tag not found
+</nierror>
+<nierror code="538352">
+Name conflict detected
+</nierror>
+<nierror code="538353">
+No tag name
+</nierror>
+<nierror code="538354">
+Type mismatch detected
+</nierror>
+<nierror code="538355">
+Dataset size mismatch
+</nierror>
+<nierror code="538356">
+Default value is not valid
+</nierror>
+<nierror code="538357">
+You must create 1 or more buffers
+</nierror>
+</nidocument>

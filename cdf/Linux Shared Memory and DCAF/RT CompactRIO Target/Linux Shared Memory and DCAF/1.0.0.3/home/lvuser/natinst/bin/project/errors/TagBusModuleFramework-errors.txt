@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="Data Mapping Component Framework" displayname="Data Mapping Component Framework">
+</nifamily>
+</nicomment>
+<nierror code="538300">
+Invalid Execution Setting
+</nierror>
+<nierror code="538301">
+Unsupported channel classification
+</nierror>
+<nierror code="538302">
+Configuration could not be loaded
+</nierror>
+<nierror code="538303">
+Configuration validation failed
+</nierror>
+<nierror code="538304">
+Asynchronous component timeout
+</nierror>
+<nierror code="538305">
+An abstract parent method was called which does not contain an implementation
+</nierror>
+<nierror code="538306">
+The runtime object for the specified configuration is not supported on this target
+</nierror>
+<nierror code="538308">
+Unsupported target
+</nierror>
+<nierror code="538311">
+That property is already set
+</nierror>
+<nierror code="538312">
+Generic Module Error -- Category: Unknown
+</nierror>
+<nierror code="538313">
+Generic Module Error -- Category: Trivial
+</nierror>
+<nierror code="538314">
+Generic Module Error -- Category: Recoverable
+</nierror>
+<nierror code="538315">
+Generic Module Error -- Category: Critical
+</nierror>
+<nierror code="538316">
+FPGA Manager: Cannot Cache this invalid bitfile
+</nierror>
+</nidocument>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+<nifamily familyname="Configuration Framework" displayname="Configuration Framework">
+</nifamily>
+</nicomment>
+<nierror code="538500">
+Class not found
+</nierror>
+<nierror code="538501">
+An abstract parent method was called which does not contain an implementation
+</nierror>
+<nierror code="538502">
+That property is already set
+</nierror>
+<nierror code="538503">
+Unable to locate the data for all children
+</nierror>
+<nierror code="538504">
+Glyph not found
+</nierror>
+<nierror code="538505">
+Missing message handler
+</nierror>
+<nierror code="538506">
+Unknown menu or right click option
+</nierror>
+<nierror code="538507">
+Systems are limited to a single root node
+</nierror>
+<nierror code="538508">
+Unable to locate an UID in the serialized data
+</nierror>
+<nierror code="538509">
+Specified UID is the root, the hierarchy cannot be split
+</nierror>
+<nierror code="538510">
+No configuration Matches the alias
+</nierror>
+<nierror code="538511">
+The configuration object does not have an instance ID and has not been properly initialized
+</nierror>
+
+
+</nidocument>

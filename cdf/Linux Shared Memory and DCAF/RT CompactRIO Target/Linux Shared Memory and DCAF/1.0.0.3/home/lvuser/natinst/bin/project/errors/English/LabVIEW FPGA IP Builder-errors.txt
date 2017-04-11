@@ -1,0 +1,145 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LabVIEW FPGA IP Builder" displayname="LabVIEW FPGA IP Builder">
+</nifamily>
+</nicomment>
+<nierror code="-362899">
+LabVIEW FPGA IP Builder:  Internal error: Invalid output folder for CPP code generation. Contact National Instruments for technical support.
+</nierror>
+<nierror code="-362898">
+LabVIEW FPGA IP Builder:  Internal error occurred in CPP code generation. Contact National Instruments for technical support.
+</nierror>
+<nierror code="-362897">
+LabVIEW FPGA IP Builder:  Array does not resolve to a fixed size.
+</nierror>
+<nierror code="-362896">
+LabVIEW FPGA IP Builder:  Invalid variable-sized array usage.
+</nierror>
+<nierror code="-362895">
+LabVIEW FPGA IP Builder:  Cannot resolve output array size from multiple arrays of different sizes.
+</nierror>
+<nierror code="-362894">
+LabVIEW FPGA IP Builder:  Cannot create multiple instances of a VI.
+</nierror>
+<nierror code="-362893">
+LabVIEW FPGA IP Builder:  Invalid source for concatenating loop tunnel.
+</nierror>
+<nierror code="-362892">
+LabVIEW FPGA IP Builder:  Invalid loop tunnel output connection.
+</nierror>
+<nierror code="-362891">
+LabVIEW FPGA IP Builder:  SubVI array output interface type conflict.
+</nierror>
+<nierror code="-362890">
+LabVIEW FPGA IP Builder:  GATICGen found syntax error(s).
+</nierror>
+<nierror code="-362889">
+LabVIEW FPGA IP Builder:  SubVI array terminals are not connected.
+</nierror>
+<nierror code="-362888">
+LabVIEW FPGA IP Builder:  Invalid usage of array control or indicator in a structure.
+</nierror>
+<nierror code="-362887">
+LabVIEW FPGA IP Builder:  Unsupported location of coercion dot.
+</nierror>
+<nierror code="-362886">
+LabVIEW FPGA IP Builder:  Array size cannot be zero.
+</nierror>
+<nierror code="-362830">
+LabVIEW FPGA IP Builder:  You must have the compilation tools for %s FPGA devices installed on the local computer to launch the estimation.
+</nierror>
+<nierror code="-362829">
+LabVIEW FPGA IP Builder:  Invalid VI name detected. Verify the top-level VI and subVI names do not contain non-ASCII characters, such as localized text, or any of the following characters: \ / : * ? " < > | .
+</nierror>
+<nierror code="-362828">
+LabVIEW FPGA IP Builder:  Some directives that you previously configured are invalid.
+</nierror>
+<nierror code="-362827">
+LabVIEW FPGA IP Builder:  Build process cancelled.
+</nierror>
+<nierror code="-362826">
+LabVIEW FPGA IP Builder:  Build process internal error.
+</nierror>
+<nierror code="-362825">
+LabVIEW FPGA IP Builder:  Directives XML cannot be found.
+</nierror>
+<nierror code="-362824">
+LabVIEW FPGA IP Builder:  Algorithm VI cannot be found.
+</nierror>
+<nierror code="-362823">
+LabVIEW FPGA IP Builder:  FPGA IP Builder target not found under the specified FPGA target.
+</nierror>
+<nierror code="-362822">
+LabVIEW FPGA IP Builder:  FPGA target cannot be found.
+</nierror>
+<nierror code="-362821">
+LabVIEW FPGA IP Builder:  Project path does not exist.
+</nierror>
+<nierror code="-362820">
+LabVIEW FPGA IP Builder:  Some interface directives that you previously configured are invalid.
+</nierror>
+<nierror code="-362819">
+LabVIEW FPGA IP Builder:  Some array indicators of the top-level VI must be "Element-by-element, unbuffered" interfaces. Refer to the Design Feedback report for more information.
+</nierror>
+<nierror code="-362818">
+LabVIEW FPGA IP Builder:  Some arrays of the top-level VI cannot be "Element-by-element, unbuffered" interfaces. Use "Element-by-element, buffered" instead. Refer to the Design Feedback report for more information.
+</nierror>
+<nierror code="-362817">
+LabVIEW FPGA IP Builder:  Internal error returned from Xilinx fuse. Contact National Instruments for technical support.
+</nierror>
+<nierror code="-362816">
+LabVIEW FPGA IP Builder:  Internal error returned from Xilinx CoreGen. Contact National Instruments for technical support.
+</nierror>
+<nierror code="-362815">
+LabVIEW FPGA IP Builder:  Generated FPGA IP VI is broken. Contact National Instruments for technical support.
+</nierror>
+<nierror code="-362814">
+LabVIEW FPGA IP Builder:  Internal error: Scalar parameter cannot be set as FIFO interface.
+</nierror>
+<nierror code="-362813">
+LabVIEW FPGA IP Builder:  Failed to add the generated FPGA IP VI into the project.
+</nierror>
+<nierror code="-362812">
+LabVIEW FPGA IP Builder:  Failed to copy the generated FPGA IP VI and supporting files to the destination directory. Possible reasons: you do not have write permission for the destination directory; the file path to the destination directory is too long.
+</nierror>
+<nierror code="-362811">
+LabVIEW FPGA IP Builder:  Failed to create the destination directory. Verify you have write permission for the destination directory.
+</nierror>
+<nierror code="-362810">
+LabVIEW FPGA IP Builder:  Internal error: Vivado HLS ended abnormally. Contact National Instruments for technical support.
+</nierror>
+<nierror code="-362809">
+LabVIEW FPGA IP Builder:  Internal error: There is an unsupported data type on the top-level VI interface. Contact National Instruments for technical support.
+</nierror>
+<nierror code="-362808">
+LabVIEW FPGA IP Builder:  Internal error: Failed to locate the top-level VI. Verify at least one <IsTop> tag exists in the working XML file and the value is TRUE. Contact National Instruments for technical support.
+</nierror>
+<nierror code="-362807">
+LabVIEW FPGA IP Builder:  Internal error: Vivado HLS is not installed properly. Contact National Instruments for technical support.
+</nierror>
+<nierror code="-362806">
+LabVIEW FPGA IP Builder:  Internal error: Failed to wrap the VHDL files into the IP Integration Node. Contact National Instruments for technical support.
+</nierror>
+<nierror code="-362805">
+LabVIEW FPGA IP Builder:  Internal error: Failed to set up files to wrap into the IP Integration Node. Contact National Instruments for technical support.
+</nierror>
+<nierror code="-362804">
+LabVIEW FPGA IP Builder:  Internal error: Failed to find the Vivado HLS synthesis report folder. Contact National Instruments for technical support.
+</nierror>
+<nierror code="-362803">
+LabVIEW FPGA IP Builder:  Internal error returned from Vivado HLS. Contact National Instruments for technical support.
+</nierror>
+<nierror code="-362802">
+LabVIEW FPGA IP Builder:  Internal error: Failed to generate the .tcl file. Contact National Instruments for technical support.
+</nierror>
+<nierror code="-362801">
+LabVIEW FPGA IP Builder:  Internal error: Failed to create the temporary working XML file. Contact National Instruments for technical support.
+</nierror>
+<nierror code="-362800">
+LabVIEW FPGA IP Builder:  Internal error: Failed to create the temporary working folder. Contact National Instruments for technical support.
+</nierror>
+<nierror code="362899">
+LabVIEW FPGA IP Builder:  Internal warning: Invalid working XML file for CPP code generation. Contact National Instruments for technical support.
+</nierror>
+</nidocument>

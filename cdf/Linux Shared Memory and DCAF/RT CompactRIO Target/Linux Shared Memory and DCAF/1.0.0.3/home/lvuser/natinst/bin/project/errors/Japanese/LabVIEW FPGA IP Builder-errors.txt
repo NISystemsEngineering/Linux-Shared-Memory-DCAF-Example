@@ -1,0 +1,145 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LabVIEW FPGA IP Builder" displayname="LabVIEW FPGA IP Builder">
+</nifamily>
+</nicomment>
+<nierror code="-362899">
+LabVIEW FPGA IP Builder:  内部エラー: CPPコード生成の無効な出力フォルダです。ナショナルインスツルメンツの技術サポートまでご連絡ください。
+</nierror>
+<nierror code="-362898">
+LabVIEW FPGA IP Builder:  CPPコード生成で内部エラーが発生しました。ナショナルインスツルメンツの技術サポートまでご連絡ください。
+</nierror>
+<nierror code="-362897">
+LabVIEW FPGA IP Builder:  配列が固定サイズに解決できません。
+</nierror>
+<nierror code="-362896">
+LabVIEW FPGA IP Builder:  可変サイズのアレイ使用が無効です。
+</nierror>
+<nierror code="-362895">
+LabVIEW FPGA IP Builder:  サイズの異なる複数配列からの出力配列サイズを解決できません。
+</nierror>
+<nierror code="-362894">
+LabVIEW FPGA IP Builder:  複数インスタンスのVIを作成できません。
+</nierror>
+<nierror code="-362893">
+LabVIEW FPGA IP Builder:  連結ループトンネルのソースが無効です。
+</nierror>
+<nierror code="-362892">
+LabVIEW FPGA IP Builder:  ループトンネル出力接続が無効です。
+</nierror>
+<nierror code="-362891">
+LabVIEW FPGA IP Builder:  サブVI配列出力インタフェースタイプが競合しています。
+</nierror>
+<nierror code="-362890">
+LabVIEW FPGA IP Builder:  GATICGenで構文エラーが見つかりました。
+</nierror>
+<nierror code="-362889">
+LabVIEW FPGA IP Builder:  サブVI配列端子が接続されていません。
+</nierror>
+<nierror code="-362888">
+LabVIEW FPGA IP Builder:  ストラクチャの配列制御器または表示器の使用が無効です。
+</nierror>
+<nierror code="-362887">
+LabVIEW FPGA IP Builder:  強制ドットの場所がサポートされていません。
+</nierror>
+<nierror code="-362886">
+LabVIEW FPGA IP Builder:  配列サイズはゼロにできません。
+</nierror>
+<nierror code="-362830">
+LabVIEW FPGA IP Builder:  見積もりを起動するには、ローカルコンピュータに%s FPGAデバイスのコンパイルツールがインストールされている必要があります。
+</nierror>
+<nierror code="-362829">
+LabVIEW FPGA IP Builder:  無効なVI名が検出されました。 トップレベルVIとサブVIの名前に、ローカライズされたテキストなどの非ASCII文字や、次のいずれかの文字が含まれていないことを確認してください: \ / : * ? " < > | .
+</nierror>
+<nierror code="-362828">
+LabVIEW FPGA IP Builder:  以前に設定した一部の指令が無効です。
+</nierror>
+<nierror code="-362827">
+LabVIEW FPGA IP Builder:  ビルドプロセスがキャンセルされました。
+</nierror>
+<nierror code="-362826">
+LabVIEW FPGA IP Builder:  ビルドプロセス内部エラー。
+</nierror>
+<nierror code="-362825">
+LabVIEW FPGA IP Builder:  指令XMLが見つかりません。
+</nierror>
+<nierror code="-362824">
+LabVIEW FPGA IP Builder:  アルゴリズムVIが見つかりません。
+</nierror>
+<nierror code="-362823">
+LabVIEW FPGA IP Builder:  FPGA IP Builderターゲットが指定されたFPGAターゲットに見つかりません。
+</nierror>
+<nierror code="-362822">
+LabVIEW FPGA IP Builder:  FPGAターゲットが見つかりません。
+</nierror>
+<nierror code="-362821">
+LabVIEW FPGA IP Builder:  プロジェクトパスは存在しません。
+</nierror>
+<nierror code="-362820">
+LabVIEW FPGA IP Builder:  以前に設定した一部のインタフェース指令が無効です。
+</nierror>
+<nierror code="-362819">
+LabVIEW FPGA IP Builder:  トップレベルVIの一部の配列表示器は、「各要素ごと、バッファ処理なし」インタフェースにする必要があります。 詳細については、設計フィードバックレポートを参照してください。
+</nierror>
+<nierror code="-362818">
+LabVIEW FPGA IP Builder:  トップレベルVIの配列の一部を、「各要素ごと、バッファ処理なし」インタフェースにすることはできません。 代わりに「各要素ごと、バッファ処理済み」を使用します。 詳細については、設計フィードバックレポートを参照してください。
+</nierror>
+<nierror code="-362817">
+LabVIEW FPGA IP Builder:  Xilinxヒューズから内部エラーが返されます。ナショナルインスツルメンツの技術サポートまでご連絡ください。
+</nierror>
+<nierror code="-362816">
+LabVIEW FPGA IP Builder:  Xilinx coregenから内部エラーが返されます。ナショナルインスツルメンツの技術サポートまでご連絡ください。
+</nierror>
+<nierror code="-362815">
+LabVIEW FPGA IP Builder:  生成されたFPGA IP VIが壊れています。ナショナルインスツルメンツの技術サポートまでご連絡ください。
+</nierror>
+<nierror code="-362814">
+LabVIEW FPGA IP Builder:  内部エラー: スカラパラメータをFIFOインタフェースとして設定することはできません。
+</nierror>
+<nierror code="-362813">
+LabVIEW FPGA IP Builder:  生成されたFPGA IP VIをプロジェクトに追加することに失敗しました。
+</nierror>
+<nierror code="-362812">
+LabVIEW FPGA IP Builder:  生成されたFPGA IP VIとサポートファイルを出力先ディレクトリにコピーすることに失敗しました。考えられる理由: 出力先ディレクトリに書き込み権限がない、出力先ディレクトリへのファイルパスが長過ぎる。
+</nierror>
+<nierror code="-362811">
+LabVIEW FPGA IP Builder:  出力先ディレクトリを作成できませんでした。出力先ディレクトリへの書き込み権限があることを確認します。
+</nierror>
+<nierror code="-362810">
+LabVIEW FPGA IP Builder:  内部エラー: Vivado HLSが異常終了しました。ナショナルインスツルメンツの技術サポートまでご連絡ください。
+</nierror>
+<nierror code="-362809">
+LabVIEW FPGA IP Builder:  内部エラー: トップレベルVIインタフェース上にサポートされていないデータタイプがあります。ナショナルインスツルメンツの技術サポートまでご連絡ください。
+</nierror>
+<nierror code="-362808">
+LabVIEW FPGA IP Builder:  内部エラー: トップレベルVIの検索に失敗しました。少なくとも1つの<IsTop>タグが作業XMLファイルに存在し、値がTRUEであることを確認します。ナショナルインスツルメンツの技術サポートまでご連絡ください。
+</nierror>
+<nierror code="-362807">
+LabVIEW FPGA IP Builder:  内部エラー: Vivado HLSが適切にインストールされていません。ナショナルインスツルメンツの技術サポートまでご連絡ください。
+</nierror>
+<nierror code="-362806">
+LabVIEW FPGA IP Builder:  内部エラー: IP統合ノードにVHDLファイルを折り返すことに失敗しました。ナショナルインスツルメンツの技術サポートまでご連絡ください。
+</nierror>
+<nierror code="-362805">
+LabVIEW FPGA IP Builder:  内部エラー: IP統合ノードに折り返すようにファイルを設定することに失敗しました。ナショナルインスツルメンツの技術サポートまでご連絡ください。
+</nierror>
+<nierror code="-362804">
+LabVIEW FPGA IP Builder:  内部エラー: Vivado HLSシンセシスレポートフォルダの検索に失敗しました。ナショナルインスツルメンツの技術サポートまでご連絡ください。
+</nierror>
+<nierror code="-362803">
+LabVIEW FPGA IP Builder:  Vivado HLSから内部エラーが返されます。ナショナルインスツルメンツの技術サポートまでご連絡ください。
+</nierror>
+<nierror code="-362802">
+LabVIEW FPGA IP Builder:  内部エラー: .tclファイルの生成に失敗しました。ナショナルインスツルメンツの技術サポートまでご連絡ください。
+</nierror>
+<nierror code="-362801">
+LabVIEW FPGA IP Builder:  内部エラー: 一時作業XMLファイルの作成に失敗しました。ナショナルインスツルメンツの技術サポートまでご連絡ください。
+</nierror>
+<nierror code="-362800">
+LabVIEW FPGA IP Builder:  内部エラー: 一時作業フォルダの作成に失敗しました。ナショナルインスツルメンツの技術サポートまでご連絡ください。
+</nierror>
+<nierror code="362899">
+LabVIEW FPGA IP Builder:  内部警告: CPPコード生成に無効な作業XMLファイルです。ナショナルインスツルメンツの技術サポートまでご連絡ください。
+</nierror>
+</nidocument>
