@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>C and DCAF Reference x64</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/dcaf_shared_memory.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/C/dcaf_shared_memory.h</locationURI>
+		</link>
+		<link>
+			<name>src/shared_memory.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/C/shared_memory.c</locationURI>
+		</link>
+		<link>
+			<name>src/shared_memory.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/C/shared_memory.h</locationURI>
+		</link>
+		<link>
+			<name>src/shared_memory_main.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/C/shared_memory_main.c</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
