@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-04-11 14:03:19" Modified_Date="2017-04-11 16:45:20" Creator="Lee Harding" Comments="" ID="d0530e0d870200af1b469a3d454c6438">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-04-11 14:03:19" Modified_Date="2017-04-12 14:48:08" Creator="Lee Harding" Comments="" ID="f37cd9d8494af14f2937fc01bdc30a92">
   <Library_General_Settings>
     <Package_File_Name>ni_refdes_linux_shared_memory_and_dcaf_example</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>export</Library_Output_Folder>
@@ -25,8 +25,8 @@
       <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI>installer helper VIs\move directory to protected Windows location.vi</Post-Install_VI>
-      <Pre-Uninstall_VI>installer helper VIs\delete directory from protected Windows location.vi</Pre-Uninstall_VI>
+      <Post-Install_VI/>
+      <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>Linux Shared Memory and DCAF Example.vipc</VI_Package_Configuration_File>
@@ -39,7 +39,7 @@ NI cRIO-906x, cRIO-903x.</Description>
       <Copyright/>
       <Packager/>
       <URL>https://github.com/NISystemsEngineering/LinuxSharedMemoryAndDCAFExample</URL>
-      <Release_Notes>beta release 1.0.0, with DCAF dependencies.</Release_Notes>
+      <Release_Notes>beta release 1.0.3, with DCAF dependencies, C code.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -115,6 +115,12 @@ NI cRIO-906x, cRIO-903x.</Description>
         <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>source/C</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -126,20 +132,17 @@ NI cRIO-906x, cRIO-903x.</Description>
         <Namespace/>
       </Namespace_Overrides>
       <Exclusions>
-        <Path>builds</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>.gitignore</Path>
       </Exclusions>
       <Exclusions>
         <Path>export</Path>
       </Exclusions>
       <Exclusions>
+        <Path>source/LV/builds</Path>
+      </Exclusions>
+      <Exclusions>
         <Path>README.md</Path>
       </Exclusions>
-      <Compile_Exclusions>
-        <Path>cdf</Path>
-      </Compile_Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
