@@ -194,7 +194,6 @@ AddOutputFilter chunkFilter
 			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ni_emb.dll" Type="Document" URL="../builds/home/lvuser/natinst/bin/data/ni_emb.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RT Startup Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -225,7 +224,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8F7503E2-1D83-4234-B610-83F037F76AFE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2C567FB0-DEA3-4CBA-81F8-E47281AE8D8F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/Target Main.vi</Property>
