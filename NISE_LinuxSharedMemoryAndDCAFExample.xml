@@ -6,7 +6,7 @@
   <Filters localize="yes">Sample Projects:CompactRIO</Filters>
   <Keywords localize="yes">Linux;shared memory;real-time;RT;cRIO;CompactRIO</Keywords>
   <LocationPath>Linux Shared Memory and DCAF Example</LocationPath>
-  <ProjectPath>Linux Shared Memory and DCAF.lvproj</ProjectPath>>
+  <ProjectPath>source/LV/Linux Shared Memory and DCAF.lvproj</ProjectPath>>
   <ListboxImagePath>images/SharedMemoryAndDCAF.png</ListboxImagePath>
   <DocumentationPath>documentation/Linux Shared Memory and DCAF Example.html</DocumentationPath>
   <CustomVIMode>None</CustomVIMode>
