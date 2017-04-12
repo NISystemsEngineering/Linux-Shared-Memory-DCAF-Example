@@ -194,16 +194,17 @@ AddOutputFilter chunkFilter
 			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ni_emb.dll" Type="Document" URL="../builds/home/lvuser/natinst/bin/data/ni_emb.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Linux Shared Memory and DCAF" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
+			<Item Name="RT Startup Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{F9C6C917-8064-404A-A4BD-6373F0FA305B}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{0D80274C-6D27-4D44-8A49-5A9F93FD35D1}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{F9CC60CE-5EE0-4982-928E-5CA74709D225}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Linux Shared Memory and DCAF</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">RT Startup Application</Property>
 				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -213,25 +214,8 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DDC117F1-B959-4BB6-85C9-A2BC0B4F66F4}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="CDF_Comp.Count" Type="Int">5</Property>
-				<Property Name="CDF_Comp[0].ID" Type="Str">{BE793622-69E8-4F0F-B3AB-DB06517FF276}</Property>
-				<Property Name="CDF_Comp[0].Title" Type="Str">CompactRIO Support</Property>
-				<Property Name="CDF_Comp[0].Version" Type="Str">16.0</Property>
-				<Property Name="CDF_Comp[1].ID" Type="Str">{899452D2-C085-430B-B76D-7FDB33BB324A}</Property>
-				<Property Name="CDF_Comp[1].Title" Type="Str">LabVIEW Real-Time</Property>
-				<Property Name="CDF_Comp[1].Version" Type="Str">14.0.1</Property>
-				<Property Name="CDF_Comp[2].ID" Type="Str">{4B855DFD-DF50-471B-B438-6096FD244423}</Property>
-				<Property Name="CDF_Comp[2].Title" Type="Str">NI Scan Engine</Property>
-				<Property Name="CDF_Comp[2].Version" Type="Str">4.3</Property>
-				<Property Name="CDF_Comp[3].ID" Type="Str">{56032245-0F4B-4641-9D74-33D067EB32B3}</Property>
-				<Property Name="CDF_Comp[3].Title" Type="Str">NI-RIO</Property>
-				<Property Name="CDF_Comp[3].Version" Type="Str">16.0</Property>
-				<Property Name="CDF_Comp[4].ID" Type="Str">{0EF06A82-BBC9-42BA-A68D-DEF017C23297}</Property>
-				<Property Name="CDF_Comp[4].Title" Type="Str">NI-RIO IO Scan</Property>
-				<Property Name="CDF_Comp[4].Version" Type="Str">16.0</Property>
-				<Property Name="CDF_enabled" Type="Bool">true</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -241,7 +225,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BFD95DB1-D935-4134-A59F-25D5368F99CB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8F7503E2-1D83-4234-B610-83F037F76AFE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/Target Main.vi</Property>
@@ -252,10 +236,10 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Linux Shared Memory and DCAF</Property>
-				<Property Name="TgtF_internalName" Type="Str">Linux Shared Memory and DCAF</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">RT Startup Application</Property>
+				<Property Name="TgtF_internalName" Type="Str">RT Startup Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 National Instruments</Property>
-				<Property Name="TgtF_productName" Type="Str">Linux Shared Memory and DCAF</Property>
+				<Property Name="TgtF_productName" Type="Str">RT Startup Application</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{14D73D78-4CB7-48BC-B561-34366735187B}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
 			</Item>
