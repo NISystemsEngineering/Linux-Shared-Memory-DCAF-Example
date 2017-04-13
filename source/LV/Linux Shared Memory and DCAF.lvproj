@@ -105,6 +105,9 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="Configuration Files" Type="Folder">
+			<Item Name="DCAFshm.pcfg" Type="Document" URL="../DCAFshm.pcfg"/>
+		</Item>
 		<Item Name="Target Main.vi" Type="VI" URL="../Target Main.vi"/>
 		<Item Name="Target Module Includes.vi" Type="VI" URL="../Target Module Includes.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
