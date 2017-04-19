@@ -143,8 +143,9 @@ int main(int argc, char *argv[]){
 			current += ((double) dcaf_cycle_start_tp.tv_nsec) / BILLION; // Add fractional current
 			current /= 1000; // Scale to Amps
 
-			boolean = !boolean; // Toggle every cycle.
-
+			if(i % 1000 == 0){
+				boolean = !boolean; // Toggle every 1000 cycles.
+			}
 			// Write new outputs to shared memory.
 
 			(*analogOutput).mod1_ao0 = voltage;
@@ -170,19 +171,18 @@ int main(int argc, char *argv[]){
 
 		// Print channel data.
 		printAnalogColumn("AI", "V", 4, &(*analogInput).mod2_ai0);
-		numLines += 8;
+		numLines += 4;
 		printf("\n");
 		numLines ++;
-
-		/*
 
 		printDigitalColumn("DI", 4, &(*digitalInput).mod4_di0);
 		numLines += 4;
 		printf("\n");
 		numLines ++;
 
+		/*
 		printAnalogColumn("AO", "V", 4, &(*analogOutput).mod1_ao0);
-		numLines +=8;
+		numLines +=4;
 		printf("\n");
 		numLines ++;
 
