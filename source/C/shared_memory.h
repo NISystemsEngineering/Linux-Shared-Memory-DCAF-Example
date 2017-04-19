@@ -11,7 +11,7 @@
 void printWithError(const char *prefix, int occurred, int err);
 void printWithStatus(const char *prefix, int occurred);
 int openSharedMemory(char *name, void *p);
-int checkVersions(struct standard_engine_shm_info *info);
+int checkVersions(struct standard_engine_version *info);
 void waitForDCAF();
 int setCpuParams(int cpuCore, int priority);
 void addTimes(struct timespec *tp1, struct timespec *tp2);
