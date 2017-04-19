@@ -136,7 +136,7 @@ int setCpuParams(int cpuCore, int priority){
 	return err;
 }
 
-int checkVersions(struct standard_engine_info *info){
+int checkVersions(struct standard_engine_version *info){
 	char printStr[128];
 	int diff = 0;
 
@@ -175,7 +175,7 @@ void waitForDCAF(){
 
 	// Get path to dcaf_info shared memory and check if file exists. Waits indefinitely.
 	char path[100] = "/dev/shm";
-	strcat(path, STANDARD_ENGINE_INFO);
+	strcat(path, STANDARD_ENGINE_VERSION);
 	while(access(path, F_OK) != 0){
 		clock_nanosleep(CLOCK_MONOTONIC, 0, &tp_1ms, NULL);
 	}
