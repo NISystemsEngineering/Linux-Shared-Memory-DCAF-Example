@@ -152,11 +152,6 @@ int main(int argc, char *argv[]){
 			(*analogOutput).mod1_ao2 = voltage;
 			(*analogOutput).mod1_ao3 = voltage;
 
-			(*analogOutput).mod5_ao0 = current;
-			(*analogOutput).mod5_ao1 = current;
-			(*analogOutput).mod5_ao2 = current;
-			(*analogOutput).mod5_ao3 = current;
-
 			(*digitalOutput).mod3_do0 = boolean;
 			(*digitalOutput).mod3_do1 = boolean;
 			(*digitalOutput).mod3_do2 = boolean;
@@ -175,7 +170,6 @@ int main(int argc, char *argv[]){
 
 		// Print channel data.
 		printAnalogColumn("AI", "V", 4, &(*analogInput).mod2_ai0);
-		printAnalogColumn("AI", "A", 4, &(*analogInput).mod6_ai0);
 		numLines += 8;
 		printf("\n");
 		numLines ++;
@@ -188,7 +182,6 @@ int main(int argc, char *argv[]){
 		numLines ++;
 
 		printAnalogColumn("AO", "V", 4, &(*analogOutput).mod1_ao0);
-		printAnalogColumn("AO", "A", 4, &(*analogOutput).mod5_ao0);
 		numLines +=8;
 		printf("\n");
 		numLines ++;
