@@ -108,6 +108,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Configuration Files" Type="Folder">
 			<Item Name="DCAFshm.pcfg" Type="Document" URL="../DCAFshm.pcfg"/>
 		</Item>
+		<Item Name="Linux Shared Memory and DCAF Example.htm" Type="Document" URL="../Linux Shared Memory and DCAF Example.htm"/>
 		<Item Name="Target Main.vi" Type="VI" URL="../Target Main.vi"/>
 		<Item Name="Target Module Includes.vi" Type="VI" URL="../Target Module Includes.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
