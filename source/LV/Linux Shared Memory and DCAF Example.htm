@@ -1,0 +1,2715 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List
+href="Linux%20Shared%20Memory%20and%20DCAF%20Example_files/filelist.xml">
+<link rel=Edit-Time-Data
+href="Linux%20Shared%20Memory%20and%20DCAF%20Example_files/editdata.mso">
+<!--[if !mso]>
+<style id=dynCom>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<link rel=themeData
+href="Linux%20Shared%20Memory%20and%20DCAF%20Example_files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="Linux%20Shared%20Memory%20and%20DCAF%20Example_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>90</w:Zoom>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SplitPgBreakAndParaMark/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="374">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1073750139 0 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1073683329 9 0 511 0;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-536870145 64767 1 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:106%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 1 Char";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:106%;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:"Calibri Light",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:#2E74B5;
+	font-weight:normal;}
+h2
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 2 Char";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:106%;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:13.0pt;
+	font-family:"Calibri Light",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:#2E74B5;
+	font-weight:normal;}
+h3
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 3 Char";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:106%;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:12.0pt;
+	font-family:"Calibri Light",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:#1F4D78;
+	font-weight:normal;}
+h4
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 4 Char";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:106%;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:11.0pt;
+	font-family:"Calibri Light",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:#2E74B5;
+	font-weight:normal;
+	font-style:italic;}
+h5
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 5 Char";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:106%;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:5;
+	font-size:11.0pt;
+	font-family:"Calibri Light",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:#2E74B5;
+	font-weight:normal;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Comment Text Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{mso-style-priority:35;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	color:#44546A;
+	font-style:italic;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-priority:10;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Title Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.5pt;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Comment Subject Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	line-height:106%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 1";
+	font-family:"Calibri Light",sans-serif;
+	mso-ascii-font-family:"Calibri Light";
+	mso-hansi-font-family:"Calibri Light";
+	color:#2E74B5;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 2";
+	font-family:"Calibri Light",sans-serif;
+	mso-ascii-font-family:"Calibri Light";
+	mso-hansi-font-family:"Calibri Light";
+	color:#2E74B5;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 3";
+	font-family:"Calibri Light",sans-serif;
+	mso-ascii-font-family:"Calibri Light";
+	mso-hansi-font-family:"Calibri Light";
+	color:#1F4D78;}
+span.Heading4Char
+	{mso-style-name:"Heading 4 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 4";
+	font-family:"Calibri Light",sans-serif;
+	mso-ascii-font-family:"Calibri Light";
+	mso-hansi-font-family:"Calibri Light";
+	color:#2E74B5;
+	font-style:italic;}
+span.Heading5Char
+	{mso-style-name:"Heading 5 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 5";
+	font-family:"Calibri Light",sans-serif;
+	mso-ascii-font-family:"Calibri Light";
+	mso-hansi-font-family:"Calibri Light";
+	color:#2E74B5;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+span.CommentTextChar
+	{mso-style-name:"Comment Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Comment Text";}
+span.TitleChar
+	{mso-style-name:"Title Char";
+	mso-style-priority:10;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Title;
+	font-family:"Calibri Light",sans-serif;
+	mso-ascii-font-family:"Calibri Light";
+	mso-hansi-font-family:"Calibri Light";
+	letter-spacing:-.5pt;}
+p.msotitlecxspfirst, li.msotitlecxspfirst, div.msotitlecxspfirst
+	{mso-style-name:msotitlecxspfirst;
+	mso-style-unhide:no;
+	mso-style-link:"Title Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.5pt;}
+p.msotitlecxspmiddle, li.msotitlecxspmiddle, div.msotitlecxspmiddle
+	{mso-style-name:msotitlecxspmiddle;
+	mso-style-unhide:no;
+	mso-style-link:"Title Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.5pt;}
+p.msotitlecxsplast, li.msotitlecxsplast, div.msotitlecxsplast
+	{mso-style-name:msotitlecxsplast;
+	mso-style-unhide:no;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.5pt;}
+span.CommentSubjectChar
+	{mso-style-name:"Comment Subject Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Comment Subject";
+	font-weight:bold;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI",sans-serif;
+	mso-ascii-font-family:"Segoe UI";
+	mso-hansi-font-family:"Segoe UI";
+	mso-bidi-font-family:"Segoe UI";}
+p.msolistparagraphcxspfirst, li.msolistparagraphcxspfirst, div.msolistparagraphcxspfirst
+	{mso-style-name:msolistparagraphcxspfirst;
+	mso-style-unhide:no;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:106%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";}
+p.msolistparagraphcxspmiddle, li.msolistparagraphcxspmiddle, div.msolistparagraphcxspmiddle
+	{mso-style-name:msolistparagraphcxspmiddle;
+	mso-style-unhide:no;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:106%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";}
+p.msolistparagraphcxsplast, li.msolistparagraphcxsplast, div.msolistparagraphcxsplast
+	{mso-style-name:msolistparagraphcxsplast;
+	mso-style-unhide:no;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	line-height:106%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";}
+p.msochpdefault, li.msochpdefault, div.msochpdefault
+	{mso-style-name:msochpdefault;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";}
+p.msopapdefault, li.msopapdefault, div.msopapdefault
+	{mso-style-name:msopapdefault;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:106%;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-hansi-font-family:Calibri;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:106%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin-top:0in;
+	mso-para-margin-right:0in;
+	mso-para-margin-bottom:8.0pt;
+	mso-para-margin-left:0in;
+	line-height:106%;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;}
+</style>
+<![endif]-->
+<script language="JavaScript">
+<!--
+function msoCommentShow(anchor_id, com_id)
+{
+	if(msoBrowserCheck()) 
+		{
+		c = document.all(com_id);
+		a = document.all(anchor_id);
+		if (null != c && null == c.length && null != a && null == a.length)
+			{
+			var cw = c.offsetWidth;
+			var ch = c.offsetHeight;
+			var aw = a.offsetWidth;
+			var ah = a.offsetHeight;
+			var x  = a.offsetLeft;
+			var y  = a.offsetTop;
+			var el = a;
+			while (el.tagName != "BODY") 
+				{
+				el = el.offsetParent;
+				x = x + el.offsetLeft;
+				y = y + el.offsetTop;
+				}
+			var bw = document.body.clientWidth;
+			var bh = document.body.clientHeight;
+			var bsl = document.body.scrollLeft;
+			var bst = document.body.scrollTop;
+			if (x + cw + ah / 2 > bw + bsl && x + aw - ah / 2 - cw >= bsl ) 
+				{ c.style.left = x + aw - ah / 2 - cw; }
+			else 
+				{ c.style.left = x + ah / 2; }
+			if (y + ch + ah / 2 > bh + bst && y + ah / 2 - ch >= bst ) 
+				{ c.style.top = y + ah / 2 - ch; }
+			else 
+				{ c.style.top = y + ah / 2; }
+			c.style.visibility = "visible";
+}	}	}
+function msoCommentHide(com_id) 
+{
+	if(msoBrowserCheck())
+		{
+		c = document.all(com_id);
+		if (null != c && null == c.length)
+		{
+		c.style.visibility = "hidden";
+		c.style.left = -1000;
+		c.style.top = -1000;
+		} } 
+}
+function msoBrowserCheck()
+{
+	ms = navigator.appVersion.indexOf("MSIE");
+	vers = navigator.appVersion.substring(ms + 5, ms + 6);
+	ie4 = (ms > 0) && (parseInt(vers) >= 4);
+	return ie4;
+}
+if (msoBrowserCheck())
+{
+	document.styleSheets.dynCom.addRule(".msocomanchor","background: infobackground");
+	document.styleSheets.dynCom.addRule(".msocomoff","display: none");
+	document.styleSheets.dynCom.addRule(".msocomtxt","visibility: hidden");
+	document.styleSheets.dynCom.addRule(".msocomtxt","position: absolute");
+	document.styleSheets.dynCom.addRule(".msocomtxt","top: -1000");
+	document.styleSheets.dynCom.addRule(".msocomtxt","left: -1000");
+	document.styleSheets.dynCom.addRule(".msocomtxt","width: 33%");
+	document.styleSheets.dynCom.addRule(".msocomtxt","background: infobackground");
+	document.styleSheets.dynCom.addRule(".msocomtxt","color: infotext");
+	document.styleSheets.dynCom.addRule(".msocomtxt","border-top: 1pt solid threedlightshadow");
+	document.styleSheets.dynCom.addRule(".msocomtxt","border-right: 2pt solid threedshadow");
+	document.styleSheets.dynCom.addRule(".msocomtxt","border-bottom: 2pt solid threedshadow");
+	document.styleSheets.dynCom.addRule(".msocomtxt","border-left: 1pt solid threedlightshadow");
+	document.styleSheets.dynCom.addRule(".msocomtxt","padding: 3pt 3pt 3pt 3pt");
+	document.styleSheets.dynCom.addRule(".msocomtxt","z-index: 100");
+}
+// -->
+</script>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link="#0563C1" vlink="#954F72" style='tab-interval:.5in'>
+
+<div class=WordSection1>
+
+<p class=MsoTitle>Linux Shared Memory and DCAF Example</p>
+
+<h1><span style='mso-fareast-font-family:"Times New Roman"'>Overview<o:p></o:p></span></h1>
+
+<p class=MsoNormal>This example will demonstrate how C and LVRT applications,
+running in parallel on NI Linux RT hardware, can share data using Linux shared memory.
+The example LabVIEW Real-Time (LVRT) application will use NI Scan Engine on NI
+CompactRIO (cRIO) for scanned hardware I/O data access, and create Linux shared
+memory as the interface to other processes. The LVRT application will use the
+Distributed Control and Automation Framework (DCAF), and implement a semaphore
+Linux IPC mechanism as a timing signal to enable synchronous execution of a
+complimenting example C application. </p>
+
+<h1><span style='mso-fareast-font-family:"Times New Roman"'>Table of Contents<o:p></o:p></span></h1>
+
+<p class=MsoListParagraph style='text-indent:-.25in'>1.<span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><a href="#_Example_Overview_1">Example Overview</a></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span class=MsoHyperlink><span
+style='color:windowtext;text-decoration:none;text-underline:none'>2.</span></span><span
+class=MsoHyperlink><span style='font-size:7.0pt;line-height:106%;font-family:
+"Times New Roman",serif;color:windowtext;text-decoration:none;text-underline:
+none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><a name="_msoanchor_1"
+id="_anchor_1"></a><a href="#_msocom_1"><span style='mso-bookmark:_msoanchor_1'><span
+style='font-size:8.0pt;line-height:106%'>[LH1]</span></span><span
+style='mso-bookmark:_msoanchor_1'></span></a><span style='mso-bookmark:_msoanchor_1'></span><span
+class=MsoCommentReference><span style='font-size:8.0pt;line-height:106%;
+font-family:"Calibri",sans-serif'>&nbsp;</span></span><a
+href="#_System_Requirements">System Requirements</a></p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
+text-underline:none'>a.</span></span><span class=MsoHyperlink><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+color:windowtext;text-decoration:none;text-underline:none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><a href="#_Software">Software</a></p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
+text-underline:none'>b.</span></span><span class=MsoHyperlink><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+color:windowtext;text-decoration:none;text-underline:none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><a href="#_Hardware">Hardware</a></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span class=MsoHyperlink><span
+style='text-decoration:none;text-underline:none'>3.</span></span><span
+class=MsoHyperlink><span style='font-size:7.0pt;line-height:106%;font-family:
+"Times New Roman",serif;text-decoration:none;text-underline:none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><a href="#_Linux_Shared_Memory">Linux Shared Memory</a></p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'>a.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><a name="_msoanchor_2" id="_anchor_2"></a><a href="#_msocom_2"><span
+style='mso-bookmark:_msoanchor_2'><span style='font-size:8.0pt;line-height:
+106%'>[LH2]</span></span><span style='mso-bookmark:_msoanchor_2'></span></a><span
+style='mso-bookmark:_msoanchor_2'></span><span class=MsoCommentReference><span
+style='font-size:8.0pt;line-height:106%;font-family:"Calibri",sans-serif'>&nbsp;</span></span><a
+href="#_Creating_Shared_Memory">Creating Shared Memory</a></p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
+text-underline:none'>b.</span></span><span class=MsoHyperlink><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+color:windowtext;text-decoration:none;text-underline:none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><a href="#_Pointers_to_Shared">Pointers to Shared Memory</a></p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
+text-underline:none'>c.</span></span><span class=MsoHyperlink><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+color:windowtext;text-decoration:none;text-underline:none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><a href="#_Mapping_Tag_Data">Defining Memory for Tag Data Sets</a></p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
+text-underline:none'>d.</span></span><span class=MsoHyperlink><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+color:windowtext;text-decoration:none;text-underline:none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><a href="#_Tag_Data_Communication">Tag Data Communication Using
+Shared Memory</a></p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
+text-underline:none'>e.</span></span><span class=MsoHyperlink><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+color:windowtext;text-decoration:none;text-underline:none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><a href="#_Linux_RT_Inter-Process">Linux RT Inter-Process Communication
+Library</a></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span class=MsoHyperlink><span
+style='color:windowtext;text-decoration:none;text-underline:none'>4.</span></span><span
+class=MsoHyperlink><span style='font-size:7.0pt;line-height:106%;font-family:
+"Times New Roman",serif;color:windowtext;text-decoration:none;text-underline:
+none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><a
+href="#_C_and_LabVIEW">C and LabVIEW IPC</a></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span class=MsoHyperlink><span
+style='color:windowtext;text-decoration:none;text-underline:none'>5.</span></span><span
+class=MsoHyperlink><span style='font-size:7.0pt;line-height:106%;font-family:
+"Times New Roman",serif;color:windowtext;text-decoration:none;text-underline:
+none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><a
+href="#_DCAF_Shared_Memory">DCAF Shared Memory Module</a></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span class=MsoHyperlink><span
+style='color:windowtext;text-decoration:none;text-underline:none'>6.</span></span><span
+class=MsoHyperlink><span style='font-size:7.0pt;line-height:106%;font-family:
+"Times New Roman",serif;color:windowtext;text-decoration:none;text-underline:
+none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><a href="#_Using_a_C">Defining
+Memory Structure Using a C Header File</a></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span class=MsoHyperlink><span
+style='color:windowtext;text-decoration:none;text-underline:none'>7.</span></span><span
+class=MsoHyperlink><span style='font-size:7.0pt;line-height:106%;font-family:
+"Times New Roman",serif;color:windowtext;text-decoration:none;text-underline:
+none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><a
+href="#_Reading_and_Writing">Reading and Writing Scanned I/O Tag Data to Shared
+Memory with DCAF and NI Scan Engine</a></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'>8.<span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><a href="#_Semaphore_Signaling_in_1">Semaphore Signaling in Shared
+Memory for Synchronous Process Execution</a></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'>9.<span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><a href="#_Linux_Shared_Memory_1">Linux Shared Memory and DCAF Example</a></p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'>a.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><a href="#_Getting_Started_2">Getting Started</a></p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'>b.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><a href="#_Hardware_Installation">Hardware Installation</a></p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'>c.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><a href="#_Software_Installation">Software Installation</a></p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
+text-underline:none'>d.</span></span><span class=MsoHyperlink><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+color:windowtext;text-decoration:none;text-underline:none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><a href="#_Launching_the_Examples">Launching the Examples</a></p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+class=MsoHyperlink><span style='color:windowtext;text-decoration:none;
+text-underline:none'>e.</span></span><span class=MsoHyperlink><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+color:windowtext;text-decoration:none;text-underline:none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><a href="#_Modifying_the_I/O">Modifying the I/O Configuration</a></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'>10.<span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp; </span><a
+href="#_Performance_Benchmarks">Performance</a></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'>11.<span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp; </span><a
+href="#_Open_Source_Collaboration">Open Source Collaboration</a></p>
+
+<h2><a name="_Example_Overview"></a><a name="_Example_Overview_1"></a><span
+style='mso-fareast-font-family:"Times New Roman"'>Example Overview<o:p></o:p></span></h2>
+
+<p class=MsoNormal><a name="_Getting_Started"></a>Scanned single point data
+from hardware I/O will be shared between a LVRT application and a C application
+using Linux shared memory. Selected Linux IPC topics, LabVIEW libraries, and
+DCAF will be discussed as they relate to the example code. </p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='mso-no-proof:yes'><img border=0 width=624 height=259 id="_x0000_i1035"
+src="Linux%20Shared%20Memory%20and%20DCAF%20Example_files/image001.jpg"></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b>Figure 1.</b>
+Linux Shared Memory Data communication diagram.</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>&nbsp;</p>
+
+<h2><a name="_System_Requirements"></a><span style='mso-fareast-font-family:
+"Times New Roman"'>System Requirements<o:p></o:p></span></h2>
+
+<p class=MsoNormal>Linux OS distributions (i.e. NI Linux RT) natively support
+Linux IPC mechanisms. NI Linux RT hardware includes: NI CompactDAQ (cDAQ), NI
+CompactRIO (cRIO), and NI Single-Board RIO (sbRIO) Real-Time targets. </p>
+
+<h3><a name="_Getting_Started_1"></a><a name="_Software"></a><span
+style='mso-fareast-font-family:"Times New Roman"'>Software<o:p></o:p></span></h3>
+
+<p class=MsoNormal>LabVIEW libraries, DCAF, and selected DCAF Modules are
+required to run the example LVRT code and view or modify the application
+configuration. Additional NI software components and dependencies will be
+automatically downloaded and installed from the example package, but are listed
+for completeness. Optionally, a C integrated development environment (IDE) may
+be installed to modify, recompile, and deploy example C code.</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·</span><span style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>LabVIEW 2014 or later</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·</span><span style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>LabVIEW RT</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·</span><span style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>NI-RIO 16.0</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·</span><span style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Additional NI Software Components (LabVIEW Tools Network*):</p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+style='font-family:"Courier New"'>o</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp; </span>NI
+Linux RT Inter-Process Communication</p>
+
+<p class=MsoListParagraph style='margin-left:1.5in;text-indent:-.25in'><span
+style='font-family:Wingdings'>§</span><span style='font-size:7.0pt;line-height:
+106%;font-family:"Times New Roman",serif'>&nbsp; </span><u>Dependencies</u>:</p>
+
+<p class=MsoListParagraph style='margin-left:2.0in;text-indent:-.25in'><span
+style='font-family:Symbol'>·</span><span style='font-size:7.0pt;line-height:
+106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>NI Linux RT Utilities</p>
+
+<p class=MsoListParagraph style='margin-left:2.0in;text-indent:-.25in'><span
+style='font-family:Symbol'>·</span><span style='font-size:7.0pt;line-height:
+106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><a name="_msoanchor_3" id="_anchor_3"></a><a href="#_msocom_3"><span
+style='mso-bookmark:_msoanchor_3'><span style='font-size:8.0pt;line-height:
+106%'>[LH3]</span></span><span style='mso-bookmark:_msoanchor_3'></span></a><span
+style='mso-bookmark:_msoanchor_3'></span><span class=MsoCommentReference><span
+style='font-size:8.0pt;line-height:106%;font-family:"Calibri",sans-serif'>&nbsp;</span></span>NI
+Linux RT Errno</p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+style='font-family:"Courier New"'>o</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp; </span>DCAF
+Core</p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+style='font-family:"Courier New"'>o</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp; </span>DCAF
+Shared Memory Module</p>
+
+<p class=MsoNormal><b><u>*note</u>:</b> Software components available on the
+LabVIEW Tools Network can be downloaded using the JKI VI Package Manager.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3><a name="_Hardware"></a><span style='mso-fareast-font-family:"Times New Roman"'>Hardware<o:p></o:p></span></h3>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·</span><span style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>NI cRIO controller (906x, 903x)</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·</span><span style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>9-30Vdc power supply</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·</span><span style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>C Series modules* (Scan Engine supported)</p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+style='font-family:"Courier New"'>o</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp; </span>AO</p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+style='font-family:"Courier New"'>o</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp; </span>AI</p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+style='font-family:"Courier New"'>o</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp; </span>DO</p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+style='font-family:"Courier New"'>o</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp; </span>DI</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b
+style='mso-bidi-font-weight:normal'><span style='mso-no-proof:yes'><img
+border=0 width=603 height=187 id="_x0000_i1034"
+src="Linux%20Shared%20Memory%20and%20DCAF%20Example_files/image002.jpg"></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b>Figure 2.</b>
+NI cRIO-9068 with a single channel “loopback” configuration (Slots 1-4: AO, AI,
+DO, and DI).</p>
+
+<p class=MsoNormal><b><span style='font-size:10.0pt;line-height:106%'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><u><span style='font-size:10.0pt;line-height:106%'>*note</span></u></b><b><span
+style='font-size:10.0pt;line-height:106%'>:</span></b><span style='font-size:
+10.0pt;line-height:106%'> It is recommended to select modules with a sampling
+rate of at least 1kS/s to keep up with the software scanned I/O sampling rate. </span></p>
+
+<h2><a name="_Example_Setup"></a><a name="_Hardware_Implementation"></a><a
+name="_Linux_IPC_Mechanisms"></a><a name="_Linux_Shared_Memory"></a><span
+style='mso-fareast-font-family:"Times New Roman"'>Linux Shared Memory<o:p></o:p></span></h2>
+
+<p class=MsoNormal>Linux inter-process communication (IPC) mechanisms enable
+data communication between software processes. Linux shared memory is one of
+these mechanisms. Shared memory is access is the lowest latency Linux IPC
+mechanism, and is implemented as pointer-based direct memory access to volatile
+random access memory (RAM) storage. Allocated memory is represented as files in
+a dedicated Linux filesystem directory location (/dev/shm). Memory location
+pointers, as well as stored data size, can be shared between application
+processes to communicate data, enable signaling, and synchronization. However,
+shared memory files will not persist in memory after a reboot of NI Linux RT
+hardware targets.</p>
+
+<h3><a name="_Pointer_Based_Tag"></a><a name="_Creating_Shared_Memory"></a><span
+style='mso-fareast-font-family:"Times New Roman"'>Creating Shared Memory<o:p></o:p></span></h3>
+
+<p class=MsoNormal>Shared memory can be created by a user application during
+runtime, and opened by other applications that want to share the same memory as
+the original application. The shared memory used in this example is the POSIX
+implementation, which assigns memory spaces a string name to make accessing the
+same memory from different applications an easy process. As long as an
+application knows the name of the shared memory that it would like to attach
+to, it can do so (assuming permissions allow).</p>
+
+<p class=MsoNormal>The “master” application, which will be responsible for
+initializing the shared memory, provides the name, as a string, that it would
+like the shared memory space to have. Upon doing so, the operating system will
+create a file with the provided name in the default location <span
+style='font-family:Consolas'>/dev/shm</span>. By default, the shared memory
+occupies zero bytes in memory, but it can be resized to whatever size the
+application requires.</p>
+
+<p class=MsoNormal>At this point, any number of “slave” processes can open a
+reference to the same shared memory file and will be able to use the shared
+memory as if it were their own. Anything written to this memory will be seen by
+all other applications that are also tied to this memory.</p>
+
+<h3><a name="_Pointers_to_Shared"></a><span style='mso-fareast-font-family:
+"Times New Roman"'>Pointers to Shared Memory<o:p></o:p></span></h3>
+
+<p class=MsoNormal>Accessing an existing shared memory file requires that it be
+“mapped” to your application’s memory. The mapping process returns a pointer to
+the memory, which can be used to read and write the shared memory. However,
+because it is just memory, there is not any inherent structure. An application
+can choose to put whatever it wants in this space and, as such, it is important
+that all applications using the memory understand how the data it contains is
+formatted. Using a structure (C/C++) or cluster (LabVIEW) can be a good way to
+define what exists in the memory, and helps ensure all applications have shared
+understanding of what the memory contains.</p>
+
+<h3><a name="_Mapping_Tag_Data"></a><span style='mso-fareast-font-family:"Times New Roman"'>Defining
+Memory for Tag Data Sets<o:p></o:p></span></h3>
+
+<p class=MsoNormal>Shared memory allocation in shared memory is a mapping of
+data to RAM, and the application that creates the memory will determine the
+configuration of that memory. There are performance benefits from grouping tag
+(“latest value”) data in shared memory by data type and access permissions
+(read/write), but this is not a requirement. The memory pointer for the start
+of the file establishes the “zero” location of data for a shared memory file.
+Tags within the file can be located by pointer offsets based on the known data
+allocated in preceding memory location within the file. &nbsp;</p>
+
+<h3><a name="_Tag_Data_Communication"></a><span style='mso-fareast-font-family:
+"Times New Roman"'>Tag Data Communication Using Shared Memory<o:p></o:p></span></h3>
+
+<p class=MsoNormal>Shared memory provides a mechanism for low latency tag data
+transfer between application processes, and it is programming language agnostic
+(i.e. LabVIEW, C, etc.). A memory mapping configuration will need to be shared
+between all processes which need access to shared memory. It is important that
+the software design incorporate a means of managing memory access to prevent
+“race conditions,” or unpredictable access operation sequence when processes
+compete for the same resource. A simple design approach can be to ensure a
+single-writer for each Linux shared memory file.</p>
+
+<h3><a name="_Linux_RT_Inter-Process"></a><span style='mso-fareast-font-family:
+"Times New Roman"'>Linux RT Inter-Process Communication Library<o:p></o:p></span></h3>
+
+<p class=MsoNormal>This library provides a LabVIEW wrapper for Linux shared
+memory and POSIX threads creation, access, and deletion. Shared memory is
+created by LabVIEW, and is accessed by name. POSIX threads (“pthreads”) can be
+created in shared memory, with user defined priority respected in the Linux OS.
+The Linux RT Inter-Process Communication Library is an open source
+collaboration located at: </p>
+
+<p class=MsoNormal><a href="https://github.com/NISystemsEngineering/LinuxRT-IPC">https://github.com/NISystemsEngineering/LinuxRT-IPC</a></p>
+
+<h2><a name="_POSIX_Threads"></a><a name="_NI_Linux_RT"></a><a
+name="_C_and_LabVIEW"></a><span style='mso-fareast-font-family:"Times New Roman"'>C
+and LabVIEW IPC<o:p></o:p></span></h2>
+
+<p class=MsoNormal>Any application process with an interface to Linux shared
+memory can share data between them by using shared memory as a communication
+interface. In this example, a C application reads and writes tag data in shared
+memory which is I/O tag data scanned by a LVRT application that has an
+interface to cRIO hardware channels. In order to prevent race conditions in
+access to shared memory, a shared memory file is created for each data type and
+direction. Using this implementation, only one writer is permitted for any
+file, and by association the tag data it contains.</p>
+
+<h2><a name="_DCAF_Shared_Memory"></a><span style='mso-fareast-font-family:
+"Times New Roman"'>DCAF Shared Memory Module<o:p></o:p></span></h2>
+
+<p class=MsoNormal>The plug-in based Distributed Control and Automation
+Framework (DCAF) provides a reliable, scalable and high performance framework
+embedded monitoring and control applications that use tag data. DCAF Module
+plug-ins exist for many tag data functions (I/O access, data communication,
+processing, logging, etc.), and this allows a user to take advantage of “out of
+box” features by configuring DCAF applications from a standard configuration
+editor. DCAF (ni.com/dcaf) is an open source collaboration located at: </p>
+
+<p class=MsoNormal><a href="https://github.com/LabVIEW-DCAF">https://github.com/LabVIEW-DCAF</a>.</p>
+
+<p class=MsoNormal>The DCAF Shared Memory Module uses the Linux RT IPC Library
+and maps its configuration to DCAF to provide a configuration based workflow
+for interfacing LV to shared memory. Users add a module (i.e. shared memory) to
+an existing DCAF configuration, then add “channels” to the module and map them
+to DCAF tags, which can be shared between modules.</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b
+style='mso-bidi-font-weight:normal'><span style='mso-no-proof:yes'><img
+border=0 width=624 height=214 id="_x0000_i1033"
+src="Linux%20Shared%20Memory%20and%20DCAF%20Example_files/image003.jpg"></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b>Figure 3.</b>
+DCAF Shared Memory Module generated input and output files.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>The DCAF Shared Memory Module is an open source
+collaboration located at: <a
+href="https://github.com/LabVIEW-DCAF/SharedMemoryModule">https://github.com/LabVIEW-DCAF/SharedMemoryModule</a></p>
+
+<h2><a name="_Shared_Memory_Example"></a><a name="_Static_Mapping_of_1"></a><a
+name="_Programming_with_Linux"></a><a name="_Static_Mapping_of"></a><a
+name="_Using_a_C"></a><span style='mso-fareast-font-family:"Times New Roman"'>Defining
+Memory Structure Using a C Header File<o:p></o:p></span></h2>
+
+<p class=MsoNormal>A C header file is one way to provide an abstraction between
+the shared memory structure and a C application. The Shared Memory Library for
+Linux RT can be used to generate a C header file from an existing memory
+configuration, made in LabVIEW<a name="_msoanchor_4" id="_anchor_4"></a><a
+href="#_msocom_4"><span style='mso-bookmark:_msoanchor_4'><span
+style='font-size:8.0pt;line-height:106%'>[LH4]</span></span><span
+style='mso-bookmark:_msoanchor_4'></span></a><span style='mso-bookmark:_msoanchor_4'></span><span
+class=MsoCommentReference><span style='font-size:8.0pt;line-height:106%;
+font-family:"Calibri",sans-serif'>&nbsp;</span></span>.<a name="_msoanchor_5"
+id="_anchor_5"></a><a href="#_msocom_5"><span style='mso-bookmark:_msoanchor_5'><span
+style='font-size:8.0pt;line-height:106%'>[RP5]</span></span><span
+style='mso-bookmark:_msoanchor_5'></span></a><span style='mso-bookmark:_msoanchor_5'></span><span
+class=MsoCommentReference><span style='font-size:8.0pt;line-height:106%;
+font-family:"Calibri",sans-serif'>&nbsp;</span></span></p>
+
+<h2><a name="_Mapping_Scanned_I/O"></a><a name="_Linux_Time_Sources"></a><a
+name="_Linux_Timing_Sources"></a><a name="_Programming_Linux_Shared"></a><a
+name="_Semaphore_Signaling_in"></a><a name="_Linux_IPC_and"></a><a
+name="_Reading_and_Writing"></a><span style='mso-fareast-font-family:"Times New Roman"'>Reading
+and Writing Scanned I/O Tag Data to Shared Memory with DCAF and NI Scan Engine</span><a
+name="_msoanchor_6" id="_anchor_6"></a><a href="#_msocom_6"><span
+style='mso-bookmark:_msoanchor_6'><span style='font-size:8.0pt;line-height:
+106%;font-family:"Calibri",sans-serif;mso-fareast-font-family:"Times New Roman"'>[LH6]</span></span><span
+style='mso-bookmark:_msoanchor_6'></span></a><span style='mso-bookmark:_msoanchor_6'></span><span
+class=MsoCommentReference><span style='font-size:8.0pt;line-height:106%;
+font-family:"Calibri",sans-serif;mso-fareast-font-family:"Times New Roman";
+color:windowtext'>&nbsp;</span></span><span style='mso-fareast-font-family:
+"Times New Roman"'><o:p></o:p></span></h2>
+
+<p class=MsoNormal>In the example scanned I/O is published to shared memory by
+a DCAF based LVRT application. I/O hardware channel read and write access is
+enabled for a cRIO in “Scan Mode” by the NI Scan Engine. NI Scan Engine is a
+process on NI Linux RT which maintains an updated tag I/O data table by
+periodic scanning of a pre-compiled FPGA I/O interface. The DCAF Scan Engine
+Module provides access to I/O hardware, and the DCAF Shared Memory Module
+allows the mapping of the I/O data to shared memory.</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='mso-no-proof:yes'><img border=0 width=624 height=347 id="_x0000_i1032"
+src="Linux%20Shared%20Memory%20and%20DCAF%20Example_files/image004.jpg"></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b>Figure 4.</b>
+DCAF scan interface to NI CompactRIO hardware I/O using NI Scan Engine.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='mso-no-proof:yes'><img border=0 width=624 height=269 id="_x0000_i1031"
+src="Linux%20Shared%20Memory%20and%20DCAF%20Example_files/image005.jpg"></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b>Figure 5.</b>
+DCAF based LVRT application components and data communication.</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>&nbsp;</p>
+
+<h2><a name="_Semaphore_Signaling_in_1"></a><span style='mso-fareast-font-family:
+"Times New Roman"'>Semaphore Signaling in Shared Memory for Synchronous Process
+Execution<o:p></o:p></span></h2>
+
+<p class=MsoNormal>Synchronous execution of C and LV can be achieved by the
+sharing signals from a LV timing source (example: NI Scan Engine). An optional
+feature of the DCAF Shared Memory Module is the sharing of LV process timing
+information and the generation of semaphores for C application processes that
+signal when I/O data is ready.</p>
+
+<h2><a name="_Linux_Shared_Memory_1"></a><span style='mso-fareast-font-family:
+"Times New Roman"'>Linux Shared Memory and DCAF Example<o:p></o:p></span></h2>
+
+<p class=MsoNormal>The attached LVRT example will use NI Scan Engine on cRIO
+for scanned hardware I/O data access, and create Linux shared memory as the
+interface to a complimenting example C application. The LVRT application will
+use the DCAF framework, and implement a semaphore based timing mechanism to
+enable synchronization of C to the NI Scan Engine. This example is maintained
+as an open source project on Github at: <a
+href="https://github.com/NISystemsEngineering/LinuxSharedMemoryAndDCAFExample">https://github.com/NISystemsEngineering/LinuxSharedMemoryAndDCAFExample</a></p>
+
+<p class=MsoNormal>Overview, DCAF Community<a name="_Linux_Error_Codes"></a></p>
+
+<p class=MsoNormal>A common “loopback” test will be used to demonstrate data
+read and write access between C and LabVIEW application processes using Linux shared
+memory. The test configuration will use tags in created shared memory as the C
+interface to the DCAF based LVRT application, which can read and write to
+hardware I/O. </p>
+
+<h3><a name="_Getting_Started_2"></a><span style='mso-fareast-font-family:"Times New Roman"'>Getting
+Started<o:p></o:p></span></h3>
+
+<p class=MsoNormal>The example LVRT code provided is intended for deployment on
+NI cRIO hardware, and requires the installation and setup of software tools and
+system hardware. </p>
+
+<h3><a name="_Hardware_Installation"></a><span style='mso-fareast-font-family:
+"Times New Roman"'>Hardware Installation<o:p></o:p></span></h3>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'>1.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Install C Series modules:</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-indent:
+.5in'>AO <i>– slot 1</i></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-indent:
+.5in'>AI <i>– slot 2</i></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-indent:
+.5in'>DO <i>– slot 3</i></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-indent:
+.5in'>DI <i>– slot 4</i></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'>2.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Connect at least one loopback wire per AIO/DIO pair (example: AO0 to
+AI0, DO0 to DI0)</p>
+
+<h3><span style='mso-fareast-font-family:"Times New Roman"'>&nbsp;<o:p></o:p></span></h3>
+
+<h3><a name="_Software_Installation"></a><span style='mso-fareast-font-family:
+"Times New Roman"'>Software Installation<o:p></o:p></span></h3>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;line-height:
+normal;vertical-align:middle'><span style='font-size:10.0pt;display:none;
+mso-hide:all'>1.</span><span style='font-size:7.0pt;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-size:12.0pt;display:none;mso-hide:all'>&nbsp;</span><span
+style='display:none;mso-hide:all'><o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;line-height:
+normal;vertical-align:middle'><span style='font-size:10.0pt;display:none;
+mso-hide:all'>2.</span><span style='font-size:7.0pt;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-size:12.0pt;display:none;mso-hide:all'>&nbsp;</span><span
+style='display:none;mso-hide:all'><o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;line-height:
+normal;vertical-align:middle'><span style='font-size:10.0pt'>3.</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Launch JKI VI Package Manager</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in;line-height:normal;
+vertical-align:middle'><span style='font-size:10.0pt'>3.1.</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Select and install <b>Linux Shared Memory and DCAF Example</b></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal;
+vertical-align:middle'><span style='font-size:10.0pt'>4.</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Copy example C code into IDE workspace directory (i.e. Eclipse
+workspace)</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in;line-height:normal;
+vertical-align:middle'><span style='font-size:10.0pt'>4.1.</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Navigate to example code:</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.75in;margin-bottom:.0001pt;line-height:normal;vertical-align:middle'>&lt;LabVIEW&gt;\ProjectTemplates\Source\Linux
+Shared Memory and DCAF Example\source\C</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.75in;margin-bottom:.0001pt;line-height:normal;vertical-align:middle'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal;
+vertical-align:middle'><span style='font-size:10.0pt'>5.</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>If modifying C application, continue to steps 3.1 and 3.2. Otherwise,
+skip to next section.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in;line-height:normal;
+vertical-align:middle'><span style='font-size:10.0pt'>5.1.</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span>If using Eclipse:</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.85in;margin-bottom:.0001pt;text-indent:-.35in;line-height:normal;
+vertical-align:middle'><span style='font-size:10.0pt'>5.1.1.</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp; </span>Copy
+contents of “Eclipse” directory to Eclipse workspace directory location.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.85in;margin-bottom:.0001pt;text-indent:-.35in;line-height:normal;
+vertical-align:middle'><span style='font-size:10.0pt'>5.1.2.</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp; </span>Re-link
+project files to the new directory location (drag file icons from Windows
+Explorer over the Eclipse file icons, and “link.”)</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in;line-height:normal;
+vertical-align:middle'><span style='font-size:10.0pt'>5.2.</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span>If using another IDE:</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.85in;margin-bottom:.0001pt;text-indent:-.35in;line-height:normal;
+vertical-align:middle'><span style='font-size:10.0pt'>5.2.1.</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp; </span>Copy
+all .c and .h files into the relevant directory and create a C/C++ project.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.85in;margin-bottom:.0001pt;line-height:normal;vertical-align:middle'>&nbsp;</p>
+
+<h3><a name="_Launching_the_Examples"></a><span style='font-size:11.0pt;
+line-height:106%;font-family:"Calibri",sans-serif;mso-fareast-font-family:"Times New Roman"'>Launching
+the Examples</span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h3>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>1.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>2.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>3.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>4.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>5.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%'>6.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Create a new LabVIEW Project.</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='mso-no-proof:yes'><img border=0 width=624 height=427 id="_x0000_i1030"
+src="Linux%20Shared%20Memory%20and%20DCAF%20Example_files/image006.jpg"></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b>Figure 6.</b>
+LabVIEW Getting Started Window.</p>
+
+<p class=MsoListParagraph style='margin-left:.25in'>&nbsp;</p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%'>7.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Select Example (LabVIEW Create Project Window).</p>
+
+<p class=MsoListParagraph style='margin-left:.55in;text-indent:-.3in'><span
+style='font-size:10.0pt;line-height:106%'>7.1.</span><span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span><i>Sample Projects &gt;&gt; CompactRIO &gt;&gt; Linux Shared Memory and
+DCAF Example</i></p>
+
+<p class=MsoListParagraph style='margin-left:.55in;text-indent:-.3in'><span
+style='font-size:10.0pt;line-height:106%'>7.2.</span><span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Click “Next.”</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='mso-no-proof:yes'><img border=0 width=624 height=492 id="_x0000_i1029"
+src="Linux%20Shared%20Memory%20and%20DCAF%20Example_files/image007.jpg"></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b>Figure 7.</b>
+LabVIEW Create Project Window.</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>&nbsp;</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>3.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>4.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>5.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>6.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>7.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%'>8.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Update Hardware Configuration (LV Project Explorer Window)</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in'><span
+style='font-size:10.0pt;line-height:106%'>8.1.</span><span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span>RT CompactRIO Target IP address</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.85in;margin-bottom:.0001pt;text-indent:-.35in'><span
+style='font-size:10.0pt;line-height:106%'>8.1.1.</span><span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp; </span>Right-click,
+<i>Properties &gt;&gt; General</i></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.85in;margin-bottom:.0001pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='mso-no-proof:yes'><img border=0 width=438 height=570 id="_x0000_i1028"
+src="Linux%20Shared%20Memory%20and%20DCAF%20Example_files/image008.jpg"></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b>Figure 8.</b>
+Example LV Project prior to chassis detection (LV Project Explorer Window).</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+text-align:center'>&nbsp;</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>1.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>2.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>3.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>4.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>5.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>6.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>7.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>8.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in'><span
+style='display:none;mso-hide:all'>8.1.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in'>8.2.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;
+</span>Detect chassis and modules</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.85in;margin-bottom:.0001pt;text-indent:-.35in'>8.2.1.
+Right-click, <i>New &gt;&gt; Targets and Devices…</i> </p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.85in;margin-bottom:.0001pt;text-indent:-.35in'>8.2.2. Select
+“Existing target or device” </p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.85in;margin-bottom:.0001pt;text-indent:-.35in'>8.2.3. Expand
+“CompactRIO Chassis” folder</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.85in;margin-bottom:.0001pt;text-indent:-.35in'>8.2.4. Select
+cRIO chassis</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.85in;margin-bottom:.0001pt;text-indent:-.35in'>8.2.5. Click
+“OK.”</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.85in;margin-bottom:.0001pt;text-indent:-.35in'>8.2.6. Leave
+Programming Mode set to “Scan Interface”</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.85in;margin-bottom:.0001pt;text-indent:-.35in'>8.2.7. Click
+“Continue.”</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.85in;margin-bottom:.0001pt;text-indent:-.35in'>8.2.8. Click
+“OK.”</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'>9.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Save LV project, and leave it open.</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'>10.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;
+</span>Modify DCAF Configuration (DCAF Editor Window)</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in'>10.1.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Launch the DCAF Standard Editor</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.85in;margin-bottom:.0001pt;text-indent:-.35in'>10.1.1.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;
+</span><i>Tools &gt;&gt; DCAF &gt;&gt; Launch Standard Configuration Editor…</i></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in'>10.2.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Update the example configuration</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.85in;margin-bottom:.0001pt;text-indent:-.35in'>10.2.1.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;
+</span><i>File &gt;&gt; Open &gt;&gt;</i>
+\&lt;ProjectDirectory&gt;\DCAFshm.pcfg</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.85in;margin-bottom:.0001pt;text-indent:-.35in'>10.2.2.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;
+</span><i>cRIO &gt;&gt; Configuration</i></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.85in;margin-bottom:.0001pt;text-indent:-.35in'>10.2.3.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;
+</span>&nbsp;Modify IP address.</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.85in;margin-bottom:.0001pt;text-indent:-.35in'>10.2.4.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;
+</span>&nbsp;Select Target Type (906x = “Linux RT ARM”, 903x = “Linux RT x64”).</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.85in;margin-bottom:.0001pt;text-indent:-.35in'>10.2.5.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;
+</span>&nbsp;Update “Includes file path” (&lt;ProjectDirectory&gt;\<b>Target
+Module Includes.vi</b>).</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.85in;margin-bottom:.0001pt;text-indent:-.35in'>10.2.6.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;
+</span>&nbsp;Save configuration file.</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'>11.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;
+</span>Deploy configuration file (DCAF Editor Window)</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in'><i>11.1.</i><i><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Tools &gt;&gt; Deploy Tool</i></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in'>11.2.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Select configuration file.</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in'>11.3.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Click “OK.”</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in'>11.4.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Type NI Auth password.</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in'>11.5.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Click “Deploy.”</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in'>11.6.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Minimize or close the DCAF Editor (<i>File &gt;&gt; Exit</i>).</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>1.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>2.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>3.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>4.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>5.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>6.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>7.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>8.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>9.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>10.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>11.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'>12.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;
+</span>Build DCAF Startup LVRT Application (LV Project Explorer)</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt'>12.1.<span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Expand “Build Specifications,” under the RT target.</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt'>12.2.<span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Left double-click, “RT Startup Application.”</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt;text-indent:-.75in'>12.3.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Choose “Local destination directory” on the PC for the application
+(example: “&lt;ProjectDirectory&gt;\builds”)</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:1.0in;margin-bottom:.0001pt;text-indent:-.75in'>12.4.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Click “Build” (this will take several minutes).</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'>13.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;
+</span>Run LVRT application as startup</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt'>13.1.<span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Right-click “RT Startup Application” (Set as startup)</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt'>13.2.<span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Right-click “RT Startup Application” (Run as startup)</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt'>13.3.<span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Click “Yes” to proceed with reboot.</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt'>13.4.<span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Enter NI Auth login credentials, click “OK.” (it will take a few minutes
+to reboot the cRIO)</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>1.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>2.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>3.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>4.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>5.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>6.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>7.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>8.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>9.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>10.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>11.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>12.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'><span
+style='display:none;mso-hide:all'>13.</span><span style='font-size:7.0pt;
+line-height:106%;font-family:"Times New Roman",serif;display:none;mso-hide:
+all'>&nbsp;&nbsp; </span><span style='display:none;mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in'>14.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;
+</span>Run C application</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in'>14.1.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Launch PuTTY.</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in'>14.2.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Enter target IP address, click “Open.”</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in'>14.3.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Log in (you will be in the “/home/admin” directory).</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in'>14.4.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Maximize PuTTY window.</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in'>14.5.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Type: “ls” to see directory contents.</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.55in;margin-bottom:.0001pt;text-indent:-.3in'>14.6.<span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Type: “./c_and_dcaf_reference” to launch the C example application.</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-indent:
+.5in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='mso-no-proof:yes'><img border=0 width=624 height=179 id="_x0000_i1027"
+src="Linux%20Shared%20Memory%20and%20DCAF%20Example_files/image009.jpg"></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b>Figure 9.</b>
+Log in and launch of example C application (PuTTY).</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b
+style='mso-bidi-font-weight:normal'><span style='mso-no-proof:yes'><img
+border=0 width=624 height=511 id="_x0000_i1026"
+src="Linux%20Shared%20Memory%20and%20DCAF%20Example_files/image010.jpg"></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b>Figure
+10.</b> C application example command line execution (PuTTY).</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>&nbsp;</p>
+
+<h3><a name="_Modifying_the_I/O"></a><span style='mso-fareast-font-family:"Times New Roman"'>Modifying
+the I/O Configuration<o:p></o:p></span></h3>
+
+<p class=MsoNormal>The hardware I/O configuration used in the examples can be
+modified using the DCAF Standard Editor (Tools &gt;&gt; DCAF &gt;&gt; DCAF
+Standard Editor) in LabVIEW. DCAF performs the functions of: 1) accessing NI
+Scan Engine, 2) creating shared memory and tag data structures in that memory,
+and 3) creating semaphores in shared memory for system timing. The
+configuration parameters relating to these features are managed in the DCAF
+Editor through user modification of the configuration (default name: “System”),
+Target (“cRIO”), DCAF Engine (default name: “Standard Engine”), and the
+channels and mappings of the DCAF Scan Engine and Shared Memory Modules.</p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>1.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;
+mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>2.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;
+mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>3.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;
+mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>4.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;
+mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>5.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;
+mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>6.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;
+mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>7.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;
+mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>8.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;
+mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>9.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;
+mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>10.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;
+mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>11.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;
+mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>12.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;
+mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>13.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;
+mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%;display:none;mso-hide:all'>14.</span><span
+style='font-size:7.0pt;line-height:106%;font-family:"Times New Roman",serif;
+display:none;mso-hide:all'>&nbsp;&nbsp;&nbsp; </span><span style='display:none;
+mso-hide:all'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%'>15.</span><span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp; </span>Modify
+the example configuration (DCAF Editor Window)</p>
+
+<p class=MsoListParagraph style='margin-left:.55in;text-indent:-.3in'><span
+style='font-size:10.0pt;line-height:106%'>15.1.</span><span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'> </span>Add, delete
+or modify the Scan Engine Module Channels.</p>
+
+<p class=MsoListParagraph style='margin-left:.85in;text-indent:-.35in'><span
+style='font-size:10.0pt;line-height:106%'>15.1.1.</span><span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Click “Generate Tags, Select “All.”</p>
+
+<p class=MsoListParagraph style='margin-left:.55in;text-indent:-.3in'><span
+style='font-size:10.0pt;line-height:106%'>15.2.</span><span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'> </span>Map tags to
+Shared Memory Module.</p>
+
+<p class=MsoListParagraph style='margin-left:.55in;text-indent:-.3in'><span
+style='font-size:10.0pt;line-height:106%'>15.3.</span><span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'> </span>Save
+configuration file. </p>
+
+<p class=MsoListParagraph style='margin-left:.55in'>&nbsp;</p>
+
+<p class=MsoListParagraph style='margin-left:.55in'><u>note</u>: If configuration
+file name is changed, <b>Target Main.vi</b> will need to be updated to use a
+new file path (set as default), and the LVRT EXE will need to be rebuilt.</p>
+
+<p class=MsoListParagraph style='margin-left:.55in'>&nbsp;</p>
+
+<p class=MsoListParagraph style='margin-left:.55in;text-indent:-.3in'><span
+style='font-size:10.0pt;line-height:106%'>15.4.</span><span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'> </span>Modify C
+header file location</p>
+
+<p class=MsoListParagraph style='margin-left:.85in;text-indent:-.35in'><span
+style='font-size:10.0pt;line-height:106%'>15.4.1.</span><span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Generate C header file (Click “Generate” button)</p>
+
+<p class=MsoListParagraph style='margin-left:.55in;text-indent:-.3in'><span
+style='font-size:10.0pt;line-height:106%'>15.5.</span><span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'> </span>Deploy
+configuration (<i>Tools&gt;&gt; Deploy Tool</i>).</p>
+
+<p class=MsoListParagraph style='margin-left:.55in;text-indent:-.3in'><span
+style='font-size:10.0pt;line-height:106%'>15.6.</span><span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'> </span>Reboot
+target.</p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%'>16.</span><span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp; </span>Modify
+C code if necessary (example: displaying more I/O channels)</p>
+
+<p class=MsoListParagraph style='margin-left:.55in;text-indent:-.3in'><span
+style='font-size:10.0pt;line-height:106%'>16.1.</span><span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'> </span>Rebuild C
+project – updates the C header file dependency.</p>
+
+<p class=MsoListParagraph style='margin-left:.55in;text-indent:-.3in'><span
+style='font-size:10.0pt;line-height:106%'>16.2.</span><span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'> </span>Deploy new
+C EXE from IDE (i.e. Eclipse).</p>
+
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
+style='font-size:10.0pt;line-height:106%'>17.</span><span style='font-size:
+7.0pt;line-height:106%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp; </span>Run
+C code from PuTTY (Step 17).</p>
+
+<h2><a name="_Performance_Benchmarks"></a><a name="_Performance"></a><span
+style='mso-fareast-font-family:"Times New Roman"'>Performance<o:p></o:p></span></h2>
+
+<p class=MsoNormal>Shared memory is one of the fastest inter-process
+communication mechanisms available in Linux. Due to it only using memory reads
+and writes, it allows for very fast data transfer between parallel applications.
+The tradeoff to this raw speed is the fact that shared memory has no form of
+event signaling (i.e. telling another process that there is new data available
+in shared memory). Applications using shared memory must use some other
+mechanism (e.g. semaphores) to cover this signaling functionality, if needed.</p>
+
+<p class=MsoNormal>The following diagram illustrates the approximate execution
+time for writing an array of data to shared memory on a CompactRIO-9034 from a
+LabVIEW RT application.</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;page-break-after:
+avoid'><span style='mso-no-proof:yes'><img border=0 width=624 height=452
+id="_x0000_i1025"
+src="Linux%20Shared%20Memory%20and%20DCAF%20Example_files/image011.jpg"></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b>Figure
+11.</b> Shared Memory Performance</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>&nbsp;</p>
+
+<p class=MsoNormal>At an array size of 1 and 10 elements, the write takes
+roughly the same amount of time (250 ns). This is largely due to the time required
+to access the system’s RAM being the limiting factor. At 100 elements, we see a
+duration of ~370 ns, or roughly 250 ns for the RAM access time plus another 120
+ns for the sequential transfer. Lastly, at 1000 elements written, the transfer
+time starts to becomes the main driver for the overall execution time, rather
+than the access time for the RAM itself.<a name="_Open_Source_Collaboration"></a></p>
+
+<h2><span style='mso-fareast-font-family:"Times New Roman"'>Open Source
+Collaboration<o:p></o:p></span></h2>
+
+<p class=MsoNormal>The Linux Shared Memory and DCAF Example, and its LV library
+and DCAF related dependencies, are all maintained as open source projects.
+These projects can be found at:</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>Linux Shared
+Memory and DCAF Example</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><a
+href="https://github.com/NISystemsEngineering/LinuxSharedMemoryAndDCAFExample">https://github.com/NISystemsEngineering/LinuxSharedMemoryAndDCAFExample</a></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>DCAF Shared
+Memory Module</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><a
+href="https://github.com/LabVIEW-DCAF/SharedMemoryModule">https://github.com/LabVIEW-DCAF/SharedMemoryModule</a></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>NI Linux RT
+Inter-Process Communication</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><a
+href="https://github.com/NISystemsEngineering/LinuxRT-IPC">https://github.com/NISystemsEngineering/LinuxRT-IPC</a></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>NI Linux RT
+Utilities</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><a
+href="https://github.com/NISystemsEngineering/LinuxRTUtilities">https://github.com/NISystemsEngineering/LinuxRTUtilities</a></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>NI Linux RT
+Errno</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><a
+href="https://github.com/NISystemsEngineering/LinuxRTErrno">https://github.com/NISystemsEngineering/LinuxRTErrno</a></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>Guidelines
+and other resources for collaboration can be found at <a
+href="http://www.ni.com/referencedesigns">ni.com/referencedesigns</a>, and more
+information on DCAF can be found at <a href="http://www.ni.com/dcaf">ni.com/dcaf</a>.</p>
+
+</div>
+
+</body>
+
+</html>
