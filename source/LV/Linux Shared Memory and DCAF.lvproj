@@ -31,7 +31,7 @@
 		<Item Name="Configuration Files" Type="Folder">
 			<Item Name="DCAFshm.pcfg" Type="Document" URL="../DCAFshm.pcfg"/>
 		</Item>
-		<Item Name="Linux Shared Memory and DCAF Example.htm" Type="Document" URL="../Linux Shared Memory and DCAF Example.htm"/>
+		<Item Name="Linux Shared Memory and DCAF Example.htm" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example.htm"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
