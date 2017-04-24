@@ -8,7 +8,7 @@
   <LocationPath>Linux Shared Memory and DCAF Example</LocationPath>
   <ProjectPath>source/LV/Linux Shared Memory and DCAF.lvproj</ProjectPath>>
   <ListboxImagePath>images/SharedMemoryAndDCAF.png</ListboxImagePath>
-  <DocumentationPath>documentation/Linux Shared Memory and DCAF Example.html</DocumentationPath>
+  <DocumentationPath>documentation/Linux Shared Memory and DCAF Example.htm</DocumentationPath>
   <CustomVIMode>None</CustomVIMode>
   <CustomVIPath></CustomVIPath>
   <EnvironmentMode></EnvironmentMode>

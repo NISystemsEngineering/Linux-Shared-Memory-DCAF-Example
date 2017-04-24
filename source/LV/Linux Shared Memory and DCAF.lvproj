@@ -20,7 +20,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="C Example (to copy)" Type="Folder">
+		<Item Name="C example (to copy)" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="dcaf_shared_memory.h" Type="Document" URL="../../C/dcaf_shared_memory.h"/>
 			<Item Name="shared_memory.c" Type="Document" URL="../../C/shared_memory.c"/>
@@ -28,10 +28,32 @@
 			<Item Name="shared_memory_main.c" Type="Document" URL="../../C/shared_memory_main.c"/>
 			<Item Name="Eclipse.zip" Type="Document" URL="../../C/Eclipse.zip"/>
 		</Item>
-		<Item Name="Configuration Files" Type="Folder">
+		<Item Name="configuration files" Type="Folder">
 			<Item Name="DCAFshm.pcfg" Type="Document" URL="../DCAFshm.pcfg"/>
 		</Item>
-		<Item Name="Linux Shared Memory and DCAF Example.htm" Type="Document" URL="../Linux Shared Memory and DCAF Example.htm"/>
+		<Item Name="documentation" Type="Folder">
+			<Item Name="html files" Type="Folder">
+				<Item Name="colorschememapping.xml" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/colorschememapping.xml"/>
+				<Item Name="filelist.xml" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/filelist.xml"/>
+				<Item Name="image001.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image001.jpg"/>
+				<Item Name="image002.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image002.jpg"/>
+				<Item Name="image003.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image003.jpg"/>
+				<Item Name="image004.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image004.jpg"/>
+				<Item Name="image005.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image005.jpg"/>
+				<Item Name="image006.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image006.jpg"/>
+				<Item Name="image007.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image007.jpg"/>
+				<Item Name="image008.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image008.jpg"/>
+				<Item Name="image009.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image009.jpg"/>
+				<Item Name="image010.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image010.jpg"/>
+				<Item Name="image011.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image011.jpg"/>
+				<Item Name="item0001.xml" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/item0001.xml"/>
+				<Item Name="item0017.xml" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/item0017.xml"/>
+				<Item Name="props002.xml" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/props002.xml"/>
+				<Item Name="props018.xml" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/props018.xml"/>
+				<Item Name="themedata.thmx" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/themedata.thmx"/>
+			</Item>
+			<Item Name="Linux Shared Memory and DCAF Example.htm" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example.htm"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
