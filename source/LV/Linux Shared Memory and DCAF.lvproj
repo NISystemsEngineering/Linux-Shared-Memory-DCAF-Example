@@ -20,6 +20,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="C Example (to copy)" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="dcaf_shared_memory.h" Type="Document" URL="../../C/dcaf_shared_memory.h"/>
+			<Item Name="shared_memory.c" Type="Document" URL="../../C/shared_memory.c"/>
+			<Item Name="shared_memory.h" Type="Document" URL="../../C/shared_memory.h"/>
+			<Item Name="shared_memory_main.c" Type="Document" URL="../../C/shared_memory_main.c"/>
+			<Item Name="Eclipse.zip" Type="Document" URL="../../C/Eclipse.zip"/>
+		</Item>
+		<Item Name="Configuration Files" Type="Folder">
+			<Item Name="DCAFshm.pcfg" Type="Document" URL="../DCAFshm.pcfg"/>
+		</Item>
+		<Item Name="Linux Shared Memory and DCAF Example.htm" Type="Document" URL="../Linux Shared Memory and DCAF Example.htm"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -105,10 +117,6 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Configuration Files" Type="Folder">
-			<Item Name="DCAFshm.pcfg" Type="Document" URL="../DCAFshm.pcfg"/>
-		</Item>
-		<Item Name="Linux Shared Memory and DCAF Example.htm" Type="Document" URL="../Linux Shared Memory and DCAF Example.htm"/>
 		<Item Name="Target Main.vi" Type="VI" URL="../Target Main.vi"/>
 		<Item Name="Target Module Includes.vi" Type="VI" URL="../Target Module Includes.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
