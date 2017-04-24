@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-04-11 14:03:19" Modified_Date="2017-04-24 14:02:21" Creator="Lee Harding" Comments="" ID="45d17d224a282cf1bd7617afe2ea6370">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-04-11 14:03:19" Modified_Date="2017-04-24 17:11:22" Creator="Lee Harding" Comments="" ID="97d8e58886f839203fa04c8836ff9d62">
   <Library_General_Settings>
     <Package_File_Name>ni_refdes_linux_shared_memory_and_dcaf_example</Package_File_Name>
-    <Library_Version>1.0.0.11</Library_Version>
+    <Library_Version>1.0.0.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>export</Library_Output_Folder>
@@ -134,6 +134,15 @@ NI cRIO-906x, cRIO-903x.</Description>
       <Exclusions>
         <Path>source/C/Eclipse</Path>
       </Exclusions>
+      <Exclusions>
+        <Path>export</Path>
+      </Exclusions>
+      <Compile_Exclusions>
+        <Path>documentation/Linux Shared Memory and DCAF Example_files</Path>
+      </Compile_Exclusions>
+      <Compile_Exclusions>
+        <Path>documentation/Linux Shared Memory and DCAF Example.htm</Path>
+      </Compile_Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
