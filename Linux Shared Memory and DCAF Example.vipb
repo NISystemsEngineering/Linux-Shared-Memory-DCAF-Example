@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-04-11 14:03:19" Modified_Date="2017-04-24 17:11:22" Creator="Lee Harding" Comments="" ID="97d8e58886f839203fa04c8836ff9d62">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-04-11 14:03:19" Modified_Date="2017-04-25 16:57:19" Creator="Lee Harding" Comments="" ID="7e856fecbb69cdab03140e42aeef4373">
   <Library_General_Settings>
     <Package_File_Name>ni_refdes_linux_shared_memory_and_dcaf_example</Package_File_Name>
     <Library_Version>1.0.0.14</Library_Version>
@@ -17,9 +17,9 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>ni_frmwk_dcaf_core &gt;=1.1.0.27</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_dcaf_scan_engine &gt;=2.1.0.68</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_dcaf_shared_memory &gt;=1.0.1.18</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_frmwk_dcaf_core &gt;=1.1.0.29</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_dcaf_scan_engine &gt;=2.1.0.78</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_dcaf_shared_memory &gt;=1.1.0.135</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
