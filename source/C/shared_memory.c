@@ -136,7 +136,7 @@ int setCpuParams(int cpuCore, int priority){
 	return err;
 }
 
-int checkVersions(struct standard_engine_version *info){
+int checkVersions(struct dcaf_version *info){
 	char printStr[128];
 	int diff = 0;
 
@@ -146,8 +146,8 @@ int checkVersions(struct standard_engine_version *info){
 	if(strlen(printStr) < 70)
 			printDots(70 - strlen(printStr));
 
-	if(info->rev_major == STANDARD_ENGINE_REV_MAJOR &&
-	   info->rev_minor == STANDARD_ENGINE_REV_MINOR){
+	if(info->rev_major == DCAF_VERSION_MAJOR &&
+	   info->rev_minor == DCAF_VERSION_MINOR){
 		diff = 0;
 	}
 	else{
@@ -157,7 +157,7 @@ int checkVersions(struct standard_engine_version *info){
 	printWithStatus("", diff);
 
 	printf("\n\nDeployed version: %d.%d\n", info->rev_major, info->rev_minor);
-	printf("Compiled version: %d.%d\n\n", STANDARD_ENGINE_REV_MAJOR, STANDARD_ENGINE_REV_MINOR);
+	printf("Compiled version: %d.%d\n\n", DCAF_VERSION_MAJOR, DCAF_VERSION_MINOR);
 
 	return diff;
 }
@@ -175,7 +175,7 @@ void waitForDCAF(){
 
 	// Get path to dcaf_info shared memory and check if file exists. Waits indefinitely.
 	char path[100] = "/dev/shm";
-	strcat(path, STANDARD_ENGINE_VERSION);
+	strcat(path, DCAF_VERSION);
 	while(access(path, F_OK) != 0){
 		clock_nanosleep(CLOCK_MONOTONIC, 0, &tp_1ms, NULL);
 	}

@@ -36,7 +36,7 @@ int main(int argc, char *argv[]){
 	double voltage, current;
 
 	// Instantiate DCAF data variables.
-	struct standard_engine_version *dcaf_info;
+	struct dcaf_version *dcaf_info;
 	struct standard_engine_sync *dcaf_sync;
 	struct standard_engine_double_input_data *analogInput;
 	struct standard_engine_double_output_data *analogOutput;
@@ -65,8 +65,8 @@ int main(int argc, char *argv[]){
 	waitForDCAF();
 
 	// Open and obtain shared memory pointers for DCAF Engine Info (contains version info).
-	if(openSharedMemory(STANDARD_ENGINE_VERSION, &p)) return -1;
-	dcaf_info = (struct standard_engine_version*) p;
+	if(openSharedMemory(DCAF_VERSION, &p)) return -1;
+	dcaf_info = (struct dcaf_version*) p;
 
 	// Short sleep to ensure DCAF has time to publish version values.
 	clock_nanosleep(CLOCK_MONOTONIC, 0, &tp_5ms, NULL);

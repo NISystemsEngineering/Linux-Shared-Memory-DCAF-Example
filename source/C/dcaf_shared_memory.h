@@ -7,14 +7,32 @@
 #include <semaphore.h>
 
 // Definitions
-// Engine version information
-#define STANDARD_ENGINE_REV_MAJOR 1
-#define STANDARD_ENGINE_REV_MINOR 0
-#define STANDARD_ENGINE_REV_FIX 0
-#define STANDARD_ENGINE_REV_BUILD 1
 
-// Shared memory filenames
-#define STANDARD_ENGINE_VERSION "/standard_engine_version"
+/* If the DCAF Version information has already been 
+ * defined, possibly by a second instance of the Shared 
+ * Memory module in the configuration, then don't redefine 
+ * version info. 
+ */
+#ifndef DCAF_VERSION
+
+/* Shared memory file used by DCAF to publish 
+ * version information during runtime. 
+ */
+#define DCAF_VERSION "/dcaf_version"
+
+/* Static version definitions for comparing to runtime 
+ * versions in shared memory. 
+ */
+#define DCAF_VERSION_MAJOR 1
+#define DCAF_VERSION_MINOR 0
+#define DCAF_VERSION_FIX 0
+#define DCAF_VERSION_BUILD 1
+
+#endif
+
+/* Shared memory file used by engine to share 
+ * synchronization objects. 
+ */
 #define STANDARD_ENGINE_SYNC "/standard_engine_sync"
 #define STANDARD_ENGINE_DOUBLE_INPUT "/standard_engine_input_double"
 #define STANDARD_ENGINE_U64_INPUT "/standard_engine_input_u64"
@@ -24,7 +42,7 @@
 #define STANDARD_ENGINE_BOOLEAN_OUTPUT "/standard_engine_output_boolean"
 
 // Structures
-struct standard_engine_version {
+struct dcaf_version {
    uint16_t rev_major;
    uint16_t rev_minor;
    uint16_t rev_fix;
