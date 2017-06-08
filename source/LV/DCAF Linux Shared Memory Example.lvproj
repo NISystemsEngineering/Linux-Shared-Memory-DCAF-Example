@@ -31,29 +31,6 @@
 		<Item Name="configuration files" Type="Folder">
 			<Item Name="DCAFshm.pcfg" Type="Document" URL="../DCAFshm.pcfg"/>
 		</Item>
-		<Item Name="documentation" Type="Folder">
-			<Item Name="html files" Type="Folder">
-				<Item Name="colorschememapping.xml" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/colorschememapping.xml"/>
-				<Item Name="filelist.xml" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/filelist.xml"/>
-				<Item Name="image001.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image001.jpg"/>
-				<Item Name="image002.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image002.jpg"/>
-				<Item Name="image003.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image003.jpg"/>
-				<Item Name="image004.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image004.jpg"/>
-				<Item Name="image005.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image005.jpg"/>
-				<Item Name="image006.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image006.jpg"/>
-				<Item Name="image007.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image007.jpg"/>
-				<Item Name="image008.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image008.jpg"/>
-				<Item Name="image009.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image009.jpg"/>
-				<Item Name="image010.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image010.jpg"/>
-				<Item Name="image011.jpg" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/image011.jpg"/>
-				<Item Name="item0001.xml" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/item0001.xml"/>
-				<Item Name="item0017.xml" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/item0017.xml"/>
-				<Item Name="props002.xml" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/props002.xml"/>
-				<Item Name="props018.xml" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/props018.xml"/>
-				<Item Name="themedata.thmx" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example_files/themedata.thmx"/>
-			</Item>
-			<Item Name="Linux Shared Memory and DCAF Example.htm" Type="Document" URL="../../../documentation/Linux Shared Memory and DCAF Example.htm"/>
-		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -182,6 +159,9 @@ DirectoryIndex index.htm
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="IOV engine refnum from target address.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/IOV engine refnum from target address.vi"/>
 				<Item Name="Linux Errno.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI Linux RT Errno/Linux Errno.lvlib"/>
+				<Item Name="Linux RT IPC.C.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI Linux RT IPC/C/Linux RT IPC.C.lvlib"/>
+				<Item Name="Linux RT IPC.POSIX Threads.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI Linux RT IPC/POSIX Threads/Linux RT IPC.POSIX Threads.lvlib"/>
+				<Item Name="Linux RT IPC.Shared Memory.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI Linux RT IPC/Shared Memory/Linux RT IPC.Shared Memory.lvlib"/>
 				<Item Name="Linux RT Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI Linux RT Utilities/Linux RT Utilities.lvlib"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>

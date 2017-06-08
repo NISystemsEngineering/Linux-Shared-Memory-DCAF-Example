@@ -1,14 +1,13 @@
 <?xml version='1.0' encoding='windows-1252' standalone='yes'?>
 <MetaData>
 <ProjectTemplate>
-  <Title localize="yes">Linux Shared Memory and DCAF Example</Title>
+  <Title localize="yes">DCAF Linux Shared Memory Example</Title>
   <Description localize="yes">Implements C and DCAF based LVRT applications that run in parallel on an NI Linux RT cRIO target, sharing I/O tag data between them using Linux shared memory.</Description>
   <Filters localize="yes">Sample Projects:CompactRIO</Filters>
   <Keywords localize="yes">Linux;shared memory;real-time;RT;cRIO;CompactRIO</Keywords>
-  <LocationPath>Linux Shared Memory and DCAF Example</LocationPath>
-  <ProjectPath>source/LV/Linux Shared Memory and DCAF.lvproj</ProjectPath>>
+  <LocationPath>DCAF Linux Shared Memory Example</LocationPath>
+  <ProjectPath>source/LV/DCAF Linux Shared Memory Example.lvproj</ProjectPath>>
   <ListboxImagePath>images/SharedMemoryAndDCAF.png</ListboxImagePath>
-  <DocumentationPath>documentation/Linux Shared Memory and DCAF Example.htm</DocumentationPath>
   <CustomVIMode>None</CustomVIMode>
   <CustomVIPath></CustomVIPath>
   <EnvironmentMode></EnvironmentMode>
